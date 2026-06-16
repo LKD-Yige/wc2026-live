@@ -8,6 +8,7 @@ import { groups } from "@/data/teams";
 import type { MatchStage } from "@/types";
 import type { Match } from "@/types";
 import { useI18n } from "@/i18n/context";
+import { Seo } from "@/components/shared/Seo";
 
 const stageOptions: { stage: MatchStage; key: string }[] = [
   { stage: "Group Stage", key: "stage.group" },
@@ -49,6 +50,16 @@ export default function SchedulePage() {
 
   return (
     <div>
+      <Seo
+        title={lang === "zh" ? "2026世界杯完整赛程 — 全部104场比赛" : "World Cup 2026 Full Schedule — All 104 Matches"}
+        description={
+          lang === "zh"
+            ? "2026年美加墨世界杯完整赛程：小组赛、淘汰赛、半决赛、决赛。48支球队，16座主办城市，104场比赛时间表。"
+            : "Complete FIFA World Cup 2026 match schedule: group stage, knockout rounds, semi-finals, final. 48 teams, 16 host cities, 104 matches."
+        }
+        canonical="/schedule"
+        ogType="website"
+      />
       <section className="bg-muted/30 border-b">
         <div className="container mx-auto px-4 py-12">
           <div className="flex items-center gap-3 mb-2">

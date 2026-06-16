@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://wc2026.live/</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wc2026.live/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wc2026.live/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://wc2026.live/"/>
+  </url>
+
+  <url>
+    <loc>https://wc2026.live/schedule</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wc2026.live/schedule"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wc2026.live/zh/schedule"/>
+  </url>
+
+  <url>
+    <loc>https://wc2026.live/teams</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wc2026.live/teams"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wc2026.live/zh/teams"/>
+  </url>
+
+  <url>
+    <loc>https://wc2026.live/scores</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wc2026.live/scores"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wc2026.live/zh/scores"/>
+  </url>
+
+  <url>
+    <loc>https://wc2026.live/news</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://wc2026.live/news"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://wc2026.live/zh/news"/>
+  </url>
+
+  <!-- News Articles -->
+  <url>
+    <loc>https://wc2026.live/news/wc2026-full-schedule-announced</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication_date>2026-03-15T08:00:00+00:00</news:publication_date>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://wc2026.live/news/messi-last-world-cup</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication_date>2026-04-02T08:00:00+00:00</news:publication_date>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://wc2026.live/news/host-cities-venue-tour</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <news:news>
+      <news:publication_date>2026-04-20T08:00:00+00:00</news:publication_date>
+    </news:news>
+  </url>
+
+</urlset>

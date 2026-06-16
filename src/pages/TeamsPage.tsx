@@ -6,11 +6,12 @@ import { teams, groups, getTeamsByGroup } from "@/data/teams";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/i18n/context";
+import { Seo } from "@/components/shared/Seo";
 
 export default function TeamsPage() {
   const [search, setSearch] = useState("");
   const [viewMode, setViewMode] = useState<"groups" | "all">("groups");
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
 
   const filteredTeams = teams.filter(
     (t) =>
@@ -21,6 +22,16 @@ export default function TeamsPage() {
 
   return (
     <div>
+      <Seo
+        title={lang === "zh" ? "2026世界杯参赛球队 — 48支球队完整名单" : "World Cup 2026 Teams — Full 48 Team List"}
+        description={
+          lang === "zh"
+            ? "2026年美加墨世界杯48支参赛球队完整名单，按12个小组分类，搜索查看任意球队详情。"
+            : "All 48 teams competing in FIFA World Cup 2026 USA Canada Mexico. Browse by group, search any team."
+        }
+        canonical="/teams"
+        ogType="website"
+      />
       <section className="bg-muted/30 border-b">
         <div className="container mx-auto px-4 py-12">
           <div className="flex items-center gap-3 mb-2">

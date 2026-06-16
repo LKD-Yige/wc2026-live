@@ -10,11 +10,12 @@ import { teams } from "@/data/teams";
 import { allMatches } from "@/data/matches";
 import type { Match } from "@/types";
 import { useI18n } from "@/i18n/context";
+import { Seo } from "@/components/shared/Seo";
 
 export default function TeamDetailPage() {
   const { teamId } = useParams<{ teamId: string }>();
   const team = teams.find((t) => t.id === teamId);
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
 
   if (!team) {
     return (
@@ -37,6 +38,17 @@ export default function TeamDetailPage() {
 
   return (
     <div>
+      <Seo
+        title={`${team.nameEn} — World Cup 2026 Team Profile`}
+        description={
+          lang === "zh"
+            ? `${team.name}（${team.nameEn}）— 2026世界杯球队详情：FIFA排名 #${team.ranking}，主教练 ${team.coach}，历史最佳成绩 ${team.bestResult}。`
+            : `${team.nameEn} — FIFA World Cup 2026 team profile: FIFA ranking #${team.ranking}, coach ${team.coach}, best result: ${team.bestResult}.`
+        }
+        canonical={`/teams/${teamId}`}
+        ogImage={`https://flagcdn.com/w320/${team.fifaCode.toLowerCase()}.png`}
+        ogType="website"
+      />
       <section className="bg-muted/30 border-b">
         <div className="container mx-auto px-4 py-8">
           <Link to="/teams" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-4 transition-colors">

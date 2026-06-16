@@ -9,10 +9,11 @@ import { groups, getTeamByCode } from "@/data/teams";
 import { standings } from "@/data/standings";
 import { useI18n } from "@/i18n/context";
 import { FlagImage } from "@/components/shared/FlagImage";
+import { Seo } from "@/components/shared/Seo";
 
 export default function ScoresPage() {
   const [selectedGroup, setSelectedGroup] = useState<string>("A");
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
 
   const groupStandings = standings[selectedGroup] || [];
   const groupCompleted = completedMatches.filter((m) => m.group === selectedGroup);
@@ -20,6 +21,16 @@ export default function ScoresPage() {
 
   return (
     <div>
+      <Seo
+        title={lang === "zh" ? "2026世界杯比分直播 — 小组积分榜" : "World Cup 2026 Live Scores — Group Standings"}
+        description={
+          lang === "zh"
+            ? "2026年世界杯实时比分、小组积分榜、今日赛果。覆盖全部12个小组48支球队。"
+            : "Live scores, group standings and today's results for FIFA World Cup 2026. All 12 groups, 48 teams."
+        }
+        canonical="/scores"
+        ogType="website"
+      />
       <section className="bg-muted/30 border-b">
         <div className="container mx-auto px-4 py-12">
           <div className="flex items-center gap-3 mb-2">

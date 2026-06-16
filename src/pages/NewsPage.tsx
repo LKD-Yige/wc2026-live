@@ -5,12 +5,23 @@ import { Badge } from "@/components/ui/badge";
 import { AdBanner } from "@/components/shared/AdBanner";
 import { news } from "@/data/news";
 import { useI18n } from "@/i18n/context";
+import { Seo } from "@/components/shared/Seo";
 
 export default function NewsPage() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
 
   return (
     <div>
+      <Seo
+        title={lang === "zh" ? "2026世界杯新闻 — 最新资讯" : "World Cup 2026 News — Latest Updates"}
+        description={
+          lang === "zh"
+            ? "2026年美加墨世界杯最新新闻资讯：赛果、球队动态、球星消息、赛事分析。"
+            : "Latest FIFA World Cup 2026 news: match results, team updates, star players, tournament analysis."
+        }
+        canonical="/news"
+        ogType="website"
+      />
       <section className="bg-muted/30 border-b">
         <div className="container mx-auto px-4 py-12">
           <div className="flex items-center gap-3 mb-2">

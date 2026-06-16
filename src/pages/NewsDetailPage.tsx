@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { AdBanner } from "@/components/shared/AdBanner";
 import { news } from "@/data/news";
 import { useI18n } from "@/i18n/context";
+import { Seo } from "@/components/shared/Seo";
 
 export default function NewsDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -30,6 +31,15 @@ export default function NewsDetailPage() {
 
   return (
     <div>
+      <Seo
+        title={article.title}
+        description={article.excerpt}
+        canonical={`/news/${article.slug}`}
+        ogImage={article.image}
+        ogType="article"
+        publishedTime={`${article.date}T08:00:00+00:00`}
+        modifiedTime={`${article.date}T08:00:00+00:00`}
+      />
       <section className="bg-muted/30 border-b">
         <div className="container mx-auto px-4 py-8">
           <Link to="/news" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-4 transition-colors">

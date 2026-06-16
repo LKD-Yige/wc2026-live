@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CountdownTimer } from "@/components/shared/CountdownTimer";
 import { MatchCard } from "@/components/shared/MatchCard";
 import { AdBanner } from "@/components/shared/AdBanner";
+import { Seo } from "@/components/shared/Seo";
 import { completedMatches } from "@/data/matches";
 import { getLatestNews } from "@/data/news";
 import { useI18n } from "@/i18n/context";
@@ -13,10 +14,22 @@ const featuredMatches = completedMatches.slice(-4).reverse();
 const latestNews = getLatestNews(4);
 
 export default function HomePage() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const isZh = lang === "zh";
 
   return (
     <div>
+      <Seo
+        title={isZh ? "FIFA 2026年世界杯 — 赛程、比分、新闻直播" : "FIFA World Cup 2026 — Schedule, Scores, News"}
+        description={
+          isZh
+            ? "2026年美加墨世界杯官方球迷资讯站。实时比分、完整赛程、48支球队详情、最新新闻，一站式覆盖。"
+            : "Your ultimate destination for FIFA World Cup 2026 in USA, Canada & Mexico. Live scores, full schedule, 48 teams, latest news & more."
+        }
+        canonical="/"
+        ogImage="/og-home.jpg"
+        ogType="website"
+      />
       {/* HERO */}
       <section className="relative overflow-hidden hero-gradient">
         <div className="absolute inset-0 opacity-10 dark:opacity-5">

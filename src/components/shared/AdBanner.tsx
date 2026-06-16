@@ -1,14 +1,13 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useI18n } from "@/i18n/context";
 
 const ADS_ENABLED = true;
 const ADS_CLIENT_ID = "ca-pub-1452616103837441";
 
 // Ad unit slots — create these in Google AdSense panel
-// Settings → Ads → Ad units → By ad size
 const AD_SLOTS: Record<string, string> = {
   "728x90": "2478510396",
-  "300x250": "3955243567", 
+  "300x250": "3955243567",
   "970x250": "5431976734",
 };
 
@@ -20,7 +19,9 @@ interface AdBannerProps {
 
 export function AdBanner({ size = "728x90", className = "", slot }: AdBannerProps) {
   const { t } = useI18n();
-  const adRef = useRef<HTMLModElement>(null);
+  const [adLoaded, setAdLoaded] = useState(false);
+  const [adVisible, setAdVisible] = useState(false);
+  const adRef = useRef<HTMLDivElement>(null);
 
   const dimensions: Record<string, { w: number; h: number }> = {
     "728x90": { w: 728, h: 90 },
@@ -30,31 +31,54 @@ export function AdBanner({ size = "728x90", className = "", slot }: AdBannerProp
   };
 
   const { w, h } = dimensions[size];
-
   const adSlot = slot || AD_SLOTS[size] || "";
 
+  // Lazy load: only load ad when it enters viewport
   useEffect(() => {
-    if (!ADS_ENABLED || !adRef.current) return;
+    if (!ADS_ENABLED || adLoaded) return;
+
+    const el = adRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setAdVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" } // start loading 200px before entering viewport
+    );
+
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [ADS_ENABLED, adLoaded]);
+
+  // Actually load the ad when visible
+  useEffect(() => {
+    if (!adVisible || !ADS_ENABLED || adLoaded) return;
     try {
       (window as any).adsbygoogle = (window as any).adsbygoogle || [];
       (window as any).adsbygoogle.push({});
+      setAdLoaded(true);
     } catch {
       // AdSense not loaded
     }
-  }, []);
+  }, [adVisible, ADS_ENABLED, adLoaded]);
 
   if (ADS_ENABLED) {
     return (
-      <div className={`flex items-center justify-center ${className}`}>
-        <ins
-          ref={adRef}
-          className="adsbygoogle"
-          style={{ display: "block", width: w, height: h, maxWidth: "100%" }}
-          data-ad-client={ADS_CLIENT_ID}
-          data-ad-slot={adSlot}
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        />
+      <div ref={adRef} className={`flex items-center justify-center ${className}`}>
+        {adVisible && (
+          <ins
+            className="adsbygoogle"
+            style={{ display: "block", width: w, height: h, maxWidth: "100%" }}
+            data-ad-client={ADS_CLIENT_ID}
+            data-ad-slot={adSlot}
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+          />
+        )}
       </div>
     );
   }

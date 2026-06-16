@@ -1,0 +1,10 @@
+# robots.txt for WC2026 Live
+# https://wc2026.live
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (none currently)
+
+# Sitemap
+Sitemap: https://wc2026.live/sitemap.xml
