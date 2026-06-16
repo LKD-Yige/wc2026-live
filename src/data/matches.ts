@@ -10,7 +10,7 @@ function m(
   return { id, date, time: timeET, stage, group, homeTeam: home, awayTeam: away, venue, city, status, homeScore: hs, awayScore: as };
 }
 
-// ========== COMPLETED MATCHES (June 11-15) ==========
+// ========== COMPLETED MATCHES (June 11-16) ==========
 export const completedMatches: Match[] = [
   // June 11
   m("m01", "2026-06-11", "15:00", "Group Stage", "A", "MEX", "RSA", "Mexico City", "Estadio Azteca", "finished", 2, 0),
@@ -33,11 +33,12 @@ export const completedMatches: Match[] = [
   m("m14", "2026-06-15", "15:00", "Group Stage", "G", "BEL", "EGY", "Seattle", "Lumen Field", "finished", 1, 1),
   m("m15", "2026-06-15", "18:00", "Group Stage", "H", "KSA", "URU", "Miami", "Hard Rock Stadium", "finished", 1, 1),
   m("m16", "2026-06-15", "21:00", "Group Stage", "G", "IRN", "NZL", "Los Angeles", "SoFi Stadium", "finished", 2, 2),
+  // June 16
+  m("m17", "2026-06-16", "15:00", "Group Stage", "I", "FRA", "SEN", "New York", "MetLife Stadium", "finished", 3, 1),
 ];
 
 // ========== TODAY (June 16) ==========
 export const todayMatches: Match[] = [
-  m("m17", "2026-06-16", "15:00", "Group Stage", "I", "FRA", "SEN", "New York", "MetLife Stadium", "upcoming"),
   m("m18", "2026-06-16", "18:00", "Group Stage", "I", "IRQ", "NOR", "Boston", "Gillette Stadium", "upcoming"),
   m("m19", "2026-06-16", "21:00", "Group Stage", "J", "ARG", "ALG", "Kansas City", "Arrowhead Stadium", "upcoming"),
 ];

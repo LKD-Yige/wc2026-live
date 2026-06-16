@@ -29,9 +29,9 @@ const data = {
     { id: "m14", date: "2026-06-15", time: "15:00", stage: "Group Stage", group: "G", homeTeam: "BEL", awayTeam: "EGY", venue: "Lumen Field", city: "Seattle", status: "finished", homeScore: 1, awayScore: 1 },
     { id: "m15", date: "2026-06-15", time: "18:00", stage: "Group Stage", group: "H", homeTeam: "KSA", awayTeam: "URU", venue: "Hard Rock Stadium", city: "Miami", status: "finished", homeScore: 1, awayScore: 1 },
     { id: "m16", date: "2026-06-15", time: "21:00", stage: "Group Stage", group: "G", homeTeam: "IRN", awayTeam: "NZL", venue: "SoFi Stadium", city: "Los Angeles", status: "finished", homeScore: 2, awayScore: 2 },
+    { id: "m17", date: "2026-06-16", time: "15:00", stage: "Group Stage", group: "I", homeTeam: "FRA", awayTeam: "SEN", venue: "MetLife Stadium", city: "New York", status: "finished", homeScore: 3, awayScore: 1 },
   ],
   matchesToday: [
-    { id: "m17", date: "2026-06-16", time: "15:00", stage: "Group Stage", group: "I", homeTeam: "FRA", awayTeam: "SEN", venue: "MetLife Stadium", city: "New York", status: "upcoming" },
     { id: "m18", date: "2026-06-16", time: "18:00", stage: "Group Stage", group: "I", homeTeam: "IRQ", awayTeam: "NOR", venue: "Gillette Stadium", city: "Boston", status: "upcoming" },
     { id: "m19", date: "2026-06-16", time: "21:00", stage: "Group Stage", group: "J", homeTeam: "ARG", awayTeam: "ALG", venue: "Arrowhead Stadium", city: "Kansas City", status: "upcoming" },
   ],
@@ -44,11 +44,12 @@ const data = {
     F: [{ fifaCode: "SWE", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 5, goalsAgainst: 1, points: 3 }, { fifaCode: "NED", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 2, goalsAgainst: 2, points: 1 }, { fifaCode: "JPN", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 2, goalsAgainst: 2, points: 1 }, { fifaCode: "TUN", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 5, points: 0 }],
     G: [{ fifaCode: "NZL", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 2, goalsAgainst: 2, points: 1 }, { fifaCode: "BEL", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "EGY", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "IRN", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 2, goalsAgainst: 2, points: 1 }],
     H: [{ fifaCode: "ESP", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 1 }, { fifaCode: "KSA", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "URU", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "CPV", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 1 }],
+    I: [{ fifaCode: "FRA", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 1, points: 3 }, { fifaCode: "SEN", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 3, points: 0 }, { fifaCode: "IRQ", played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }, { fifaCode: "NOR", played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }],
   },
   summary: {
-    totalMatches: 16,
-    totalGoals: 40,
-    groupsActive: 8,
+    totalMatches: 17,
+    totalGoals: 43,
+    groupsActive: 9,
   },
 };
 
@@ -56,4 +57,4 @@ const outDir = path.join(__dirname, "..", "public", "api");
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, "scores.json"), JSON.stringify(data, null, 2));
 console.log(`✅ Live data generated at ${now}`);
-console.log(`   16 matches, 40 goals, 8 groups`);
+console.log(`   17 matches, 43 goals, 9 groups`);
