@@ -1,15 +1,21 @@
 import { useEffect, useRef } from "react";
 import { useI18n } from "@/i18n/context";
 
-// Set this to true once you have an AdSense account approved
-const ADS_ENABLED = false;
-// Replace with your AdSense publisher ID
-const ADS_CLIENT_ID = "ca-pub-XXXXXXXXXXXXXXXX";
+const ADS_ENABLED = true;
+const ADS_CLIENT_ID = "ca-pub-1452616103837441";
+
+// Ad unit slots — create these in Google AdSense panel
+// Settings → Ads → Ad units → By ad size
+const AD_SLOTS: Record<string, string> = {
+  "728x90": "2478510396",
+  "300x250": "3955243567", 
+  "970x250": "5431976734",
+};
 
 interface AdBannerProps {
   size?: "728x90" | "300x250" | "300x600" | "970x250";
   className?: string;
-  slot?: string; // AdSense ad unit slot ID
+  slot?: string;
 }
 
 export function AdBanner({ size = "728x90", className = "", slot }: AdBannerProps) {
@@ -25,18 +31,19 @@ export function AdBanner({ size = "728x90", className = "", slot }: AdBannerProp
 
   const { w, h } = dimensions[size];
 
+  const adSlot = slot || AD_SLOTS[size] || "";
+
   useEffect(() => {
-    if (!ADS_ENABLED || !adRef.current || !slot) return;
+    if (!ADS_ENABLED || !adRef.current) return;
     try {
-      // Push AdSense ad
       (window as any).adsbygoogle = (window as any).adsbygoogle || [];
       (window as any).adsbygoogle.push({});
     } catch {
       // AdSense not loaded
     }
-  }, [slot]);
+  }, []);
 
-  if (ADS_ENABLED && slot) {
+  if (ADS_ENABLED) {
     return (
       <div className={`flex items-center justify-center ${className}`}>
         <ins
@@ -44,7 +51,7 @@ export function AdBanner({ size = "728x90", className = "", slot }: AdBannerProp
           className="adsbygoogle"
           style={{ display: "block", width: w, height: h, maxWidth: "100%" }}
           data-ad-client={ADS_CLIENT_ID}
-          data-ad-slot={slot}
+          data-ad-slot={adSlot}
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
@@ -52,7 +59,6 @@ export function AdBanner({ size = "728x90", className = "", slot }: AdBannerProp
     );
   }
 
-  // Placeholder mode (before AdSense approved)
   return (
     <div className={`flex items-center justify-center ${className}`}>
       <div
