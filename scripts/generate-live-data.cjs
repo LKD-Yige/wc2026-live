@@ -33,7 +33,7 @@ const data = {
     { id: "m18", date: "2026-06-16", time: "18:00", stage: "Group Stage", group: "I", homeTeam: "IRQ", awayTeam: "NOR", venue: "Gillette Stadium", city: "Boston", status: "finished", homeScore: 1, awayScore: 3 },
   ],
   matchesToday: [
-    { id: "m19", date: "2026-06-16", time: "21:00", stage: "Group Stage", group: "J", homeTeam: "ARG", awayTeam: "ALG", venue: "Arrowhead Stadium", city: "Kansas City", status: "upcoming" },
+    { id: "m19", date: "2026-06-16", time: "21:00", stage: "Group Stage", group: "J", homeTeam: "ARG", awayTeam: "ALG", venue: "Arrowhead Stadium", city: "Kansas City", status: "live", homeScore: 2, awayScore: 0 },
   ],
   standings: {
     A: [{ fifaCode: "MEX", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 2, goalsAgainst: 0, points: 3 }, { fifaCode: "KOR", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 2, goalsAgainst: 1, points: 3 }, { fifaCode: "CZE", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 2, points: 0 }, { fifaCode: "RSA", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 0, goalsAgainst: 2, points: 0 }],
