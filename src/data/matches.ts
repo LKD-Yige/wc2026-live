@@ -37,11 +37,12 @@ export const completedMatches: Match[] = [
   m("m17", "2026-06-16", "15:00", "Group Stage", "I", "FRA", "SEN", "New York", "MetLife Stadium", "finished", 3, 1),
   m("m18", "2026-06-16", "18:00", "Group Stage", "I", "IRQ", "NOR", "Boston", "Gillette Stadium", "finished", 1, 4),
   m("m19", "2026-06-16", "21:00", "Group Stage", "J", "ARG", "ALG", "Kansas City", "Arrowhead Stadium", "finished", 3, 0),
+  // June 17
+  m("m20", "2026-06-17", "15:00", "Group Stage", "J", "AUT", "JOR", "Houston", "NRG Stadium", "finished", 3, 1),
 ];
 
 // ========== TODAY (June 17) ==========
 export const todayMatches: Match[] = [
-  m("m20", "2026-06-17", "15:00", "Group Stage", "J", "AUT", "JOR", "Houston", "NRG Stadium", "live", 1, 1),
 ];
 
 // ========== UPCOMING: June 17 ==========
