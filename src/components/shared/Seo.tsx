@@ -12,8 +12,8 @@ interface SeoProps {
   noindex?: boolean;
 }
 
-const SITE_URL = "https://wc2026.live";
-const SITE_NAME = "WC2026 Live";
+const SITE_URL = "https://globalfootball.live";
+const SITE_NAME = "Global Football Live";
 const DEFAULT_IMAGE = `${SITE_URL}/og-default.jpg`;
 
 export function Seo({
@@ -27,7 +27,7 @@ export function Seo({
   noindex = false,
 }: SeoProps) {
   const { lang } = useI18n();
-  const fullTitle = title.includes("WC2026")
+  const fullTitle = title.includes("Global Football")
     ? title
     : `${title} | ${SITE_NAME}`;
   const canonicalUrl = canonical || `${SITE_URL}${window.location.pathname}`;

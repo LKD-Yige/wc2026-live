@@ -33,12 +33,12 @@ export function HostCities() {
       <section className="py-12 px-4 bg-gradient-to-b from-amber-50 to-background dark:from-amber-950/20">
         <div className="container mx-auto text-center max-w-2xl">
           <h1 className="text-4xl font-bold mb-3">
-            {lang === "zh" ? "2026世界杯主办城市" : "2026 World Cup Host Cities"}
+            {lang === "zh" ? "2026世界杯主办城市" : "2026 tournament Host Cities"}
           </h1>
           <p className="text-muted-foreground">
             {lang === "zh"
               ? "16座城市，3个国家，史上规模最大的世界杯。从墨西哥城的传奇阿兹特克球场，到洛杉矶的 SoFi 体育场，共同见证足球历史。"
-              : "16 cities across 3 countries. The biggest World Cup ever. From the legendary Estadio Azteca in Mexico City to SoFi Stadium in Los Angeles, witness football history together."}
+              : "16 cities across 3 countries. The biggest tournament ever. From the legendary Estadio Azteca in Mexico City to SoFi Stadium in Los Angeles, witness football history together."}
           </p>
         </div>
       </section>

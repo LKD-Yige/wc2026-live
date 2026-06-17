@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T02:46:18.919Z",
+  "generated": "2026-06-17T06:36:08.229Z",
   "day": 6,
   "matchesCompleted": [
     {
@@ -252,10 +252,8 @@
       "city": "Boston",
       "status": "finished",
       "homeScore": 1,
-      "awayScore": 3
-    }
-  ],
-  "matchesToday": [
+      "awayScore": 4
+    },
     {
       "id": "m19",
       "date": "2026-06-16",
@@ -266,8 +264,8 @@
       "awayTeam": "ALG",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
-      "status": "live",
-      "homeScore": 2,
+      "status": "finished",
+      "homeScore": 3,
       "awayScore": 0
     }
   ],
@@ -625,7 +623,7 @@
         "won": 1,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 3,
+        "goalsFor": 4,
         "goalsAgainst": 1,
         "points": 3
       },
@@ -646,14 +644,56 @@
         "drawn": 0,
         "lost": 1,
         "goalsFor": 1,
+        "goalsAgainst": 4,
+        "points": 0
+      }
+    ],
+    "J": [
+      {
+        "fifaCode": "ARG",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "points": 3
+      },
+      {
+        "fifaCode": "ALG",
+        "played": 1,
+        "won": 0,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 0,
         "goalsAgainst": 3,
+        "points": 0
+      },
+      {
+        "fifaCode": "AUT",
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "points": 0
+      },
+      {
+        "fifaCode": "JOR",
+        "played": 0,
+        "won": 0,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
         "points": 0
       }
     ]
   },
   "summary": {
-    "totalMatches": 18,
-    "totalGoals": 47,
+    "totalMatches": 19,
+    "totalGoals": 50,
     "groupsActive": 9
   }
 }

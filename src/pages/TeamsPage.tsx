@@ -23,11 +23,11 @@ export default function TeamsPage() {
   return (
     <div>
       <Seo
-        title={lang === "zh" ? "2026世界杯参赛球队 — 48支球队完整名单" : "World Cup 2026 Teams — Full 48 Team List"}
+        title={lang === "zh" ? "2026参赛球队 — 48支球队完整名单" : "2026 Tournament Teams — Full 48 Team List"}
         description={
           lang === "zh"
             ? "2026年美加墨世界杯48支参赛球队完整名单，按12个小组分类，搜索查看任意球队详情。"
-            : "All 48 teams competing in FIFA World Cup 2026 USA Canada Mexico. Browse by group, search any team."
+            : "All 48 teams competing in 2026 tournament USA Canada Mexico. Browse by group, search any team."
         }
         canonical="/teams"
         ogType="website"

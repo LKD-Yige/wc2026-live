@@ -45,9 +45,9 @@ export function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 font-bold text-lg">
           <Trophy className="h-6 w-6 text-amber-500" />
-          <span className="hidden sm:inline bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent">
-            WC2026 Live
-          </span>
+          <span className="hidden sm:inline bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+              Global Football Live
+            </span>
         </Link>
 
         {/* Live indicator */}

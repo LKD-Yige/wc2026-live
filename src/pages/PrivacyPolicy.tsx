@@ -23,7 +23,7 @@ export function PrivacyPolicy() {
             <p>
               {lang === "zh"
                 ? "本网站为2026年FIFA世界杯非官方资讯网站。我们不直接收集您的个人信息。当您访问本网站时，我们的服务器可能自动记录标准日志信息，包括IP地址、浏览器类型、访问时间和引用页面。"
-                : "This website is an unofficial information site for the 2026 FIFA World Cup. We do not directly collect your personal information. When you visit this site, our servers may automatically record standard log information including IP address, browser type, access time, and referring pages."}
+                : "This website is an unofficial information site for the 2026 2026 tournament. We do not directly collect your personal information. When you visit this site, our servers may automatically record standard log information including IP address, browser type, access time, and referring pages."}
             </p>
           </section>
 

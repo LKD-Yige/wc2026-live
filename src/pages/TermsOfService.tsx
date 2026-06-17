@@ -22,7 +22,7 @@ export function TermsOfService() {
             </h2>
             <p>
               {lang === "zh"
-                ? "WC2026 Live 是一个非官方的FIFA世界杯资讯网站，由球迷自发建立和维护。本网站与FIFA（国际足球联合会）无任何官方关联或授权关系。"
+                ? "WC2026 Live 是一个非官方的2026足球锦标赛资讯网站，由球迷自发建立和维护。本网站与FIFA（国际足球联合会）无任何官方关联或授权关系。"
                 : "WC2026 Live is an unofficial FIFA World Cup information website, voluntarily established and maintained by fans. This website has no official affiliation or authorization relationship with FIFA (Fédération Internationale de Football Association)."}
             </p>
           </section>

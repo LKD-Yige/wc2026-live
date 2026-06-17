@@ -12,15 +12,15 @@ export const translations = {
 
     // Home
     "home.badge": "USA · Canada · Mexico",
-    "home.title": "FIFA World Cup",
-    "home.subtitle": "Day 6 of the biggest World Cup ever. 16 matches played, 40 goals scored. Today: France vs Senegal, Iraq vs Norway, Argentina vs Algeria.",
+    "home.title": "Global Football",
+    "home.subtitle": "Day 6 of the 2026 tournament. 16 matches played, 40 goals scored. Today: France vs Senegal, Iraq vs Norway, Argentina vs Algeria.",
     "home.schedule": "View Full Schedule",
     "home.teams": "Explore Teams",
     "home.latest": "Latest Results",
     "home.latestSub": "Recent group stage action",
     "home.viewAll": "View All",
     "home.news": "Latest News",
-    "home.newsSub": "Stay up to date with World Cup coverage",
+    "home.newsSub": "Stay up to date with tournament coverage",
     "home.allNews": "All News",
     "home.hosts": "Host Cities",
     "home.hostsSub": "16 cities across United States, Canada, and Mexico",
@@ -33,7 +33,7 @@ export const translations = {
 
     // Schedule
     "schedule.title": "Match Schedule",
-    "schedule.subtitle": "Complete fixtures for FIFA World Cup 2026. 104 matches from June 11 to July 19. Group stage followed by knockout rounds.",
+    "schedule.subtitle": "Complete fixtures for the 2026 tournament. 104 matches from June 11 to July 19. Group stage followed by knockout rounds.",
     "schedule.filters": "Filters:",
     "schedule.all": "All",
     "schedule.groups": "Groups:",
@@ -42,7 +42,7 @@ export const translations = {
 
     // Teams
     "teams.title": "Teams & Groups",
-    "teams.subtitle": "48 teams. 12 groups. The biggest World Cup ever. Explore every team's profile, star players, and tournament history.",
+    "teams.subtitle": "48 teams. 12 groups. The biggest tournament ever. Explore every team's profile, star players, and tournament history.",
     "teams.search": "Search teams...",
     "teams.byGroups": "By Groups",
     "teams.allTeams": "All Teams",
@@ -55,13 +55,13 @@ export const translations = {
     "team.about": "About",
     "team.bestResult": "Best Result",
     "team.appearances": "Appearances",
-    "team.ranking": "FIFA Ranking",
+    "team.ranking": "Ranking",
     "team.coach": "Coach",
     "team.stars": "Star Players",
     "team.matches": "Group Stage Matches",
     "team.noMatches": "No matches scheduled yet.",
     "team.quickFacts": "Quick Facts",
-    "team.fifaCode": "FIFA Code",
+    "team.fifaCode": "Code",
     "team.group": "Group",
     "team.worldRank": "World Ranking",
     "team.wcApps": "WC Appearances",
@@ -82,8 +82,8 @@ export const translations = {
     "scores.pts": "Pts",
 
     // News
-    "news.title": "World Cup News",
-    "news.subtitle": "Latest coverage, match reports, team news, and feature stories from the 2026 FIFA World Cup.",
+    "news.title": "tournament News",
+    "news.subtitle": "Latest coverage, match reports, team news, and feature stories from the 2026 tournament.",
     "news.readMore": "Read More",
     "news.related": "Related Articles",
     "news.notFound": "Article Not Found",
@@ -106,7 +106,7 @@ export const translations = {
     "hero.day": "Day 6 · Groups I & J kick off today",
 
     // Footer
-    "footer.desc": "Your ultimate destination for FIFA World Cup 2026 coverage. Schedules, scores, teams, and live updates.",
+    "footer.desc": "Your ultimate destination for the 2026 football tournament. Schedules, scores, teams, and live updates.",
     "footer.quick": "Quick Links",
     "footer.resources": "Resources",
     "footer.follow": "Follow Us",
@@ -115,7 +115,7 @@ export const translations = {
     "footer.faq": "FAQ",
     "footer.contact": "Contact",
     "footer.disclaimer": "This is an unofficial fan site. Not affiliated with FIFA.",
-    "footer.socialNote": "Follow the official FIFA World Cup social channels for real-time updates.",
+    "footer.socialNote": "Follow the official tournament social channels for real-time updates.",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms of Service",
     "footer.advertise": "Advertise with Us",
@@ -149,15 +149,15 @@ export const translations = {
 
     // Home
     "home.badge": "美国 · 加拿大 · 墨西哥",
-    "home.title": "FIFA 世界杯",
-    "home.subtitle": "史上最大世界杯第6天。已踢16场，40个进球。今日焦点：法国vs塞内加尔、伊拉克vs挪威、阿根廷vs阿尔及利亚。",
+    "home.title": "赛事",
+    "home.subtitle": "史上最大赛事第6天。已踢16场，40个进球。今日焦点：法国vs塞内加尔、伊拉克vs挪威、阿根廷vs阿尔及利亚。",
     "home.schedule": "查看完整赛程",
     "home.teams": "探索球队",
     "home.latest": "最新战报",
     "home.latestSub": "小组赛第一轮精彩回顾",
     "home.viewAll": "查看全部",
     "home.news": "最新新闻",
-    "home.newsSub": "世界杯最新资讯报道",
+    "home.newsSub": "赛事最新资讯报道",
     "home.allNews": "全部新闻",
     "home.hosts": "主办城市",
     "home.hostsSub": "横跨美国、加拿大、墨西哥的16座城市",
@@ -170,7 +170,7 @@ export const translations = {
 
     // Schedule
     "schedule.title": "比赛赛程",
-    "schedule.subtitle": "2026年FIFA世界杯完整赛程。6月11日至7月19日，104场比赛，小组赛加淘汰赛。",
+    "schedule.subtitle": "2026年2026足球锦标赛完整赛程。6月11日至7月19日，104场比赛，小组赛加淘汰赛。",
     "schedule.filters": "筛选",
     "schedule.all": "全部",
     "schedule.groups": "小组",
@@ -179,7 +179,7 @@ export const translations = {
 
     // Teams
     "teams.title": "球队 & 小组",
-    "teams.subtitle": "48支球队，12个小组。史上最大的世界杯。探索每支球队的档案、明星球员和世界杯历史。",
+    "teams.subtitle": "48支球队，12个小组。史上最大的赛事。探索每支球队的档案、明星球员和赛事历史。",
     "teams.search": "搜索球队...",
     "teams.byGroups": "按小组",
     "teams.allTeams": "全部球队",
@@ -192,16 +192,16 @@ export const translations = {
     "team.about": "球队简介",
     "team.bestResult": "最佳战绩",
     "team.appearances": "参赛次数",
-    "team.ranking": "FIFA排名",
+    "team.ranking": "世界排名",
     "team.coach": "主教练",
     "team.stars": "明星球员",
     "team.matches": "小组赛赛程",
     "team.noMatches": "暂无比赛安排",
     "team.quickFacts": "基本信息",
-    "team.fifaCode": "FIFA代码",
+    "team.fifaCode": "球队代码",
     "team.group": "小组",
     "team.worldRank": "世界排名",
-    "team.wcApps": "世界杯参赛",
+    "team.wcApps": "赛事参赛",
     "team.notFound": "未找到球队",
     "team.notFoundDesc": "您查找的球队不存在。",
 
@@ -219,8 +219,8 @@ export const translations = {
     "scores.pts": "分",
 
     // News
-    "news.title": "世界杯新闻",
-    "news.subtitle": "2026年FIFA世界杯最新报道、比赛战报、球队动态和专题故事。",
+    "news.title": "赛事新闻",
+    "news.subtitle": "2026年2026足球锦标赛最新报道、比赛战报、球队动态和专题故事。",
     "news.readMore": "阅读全文",
     "news.related": "相关文章",
     "news.notFound": "未找到文章",
@@ -243,7 +243,7 @@ export const translations = {
     "hero.day": "第6天 · I组和J组今天开打",
 
     // Footer
-    "footer.desc": "2026年FIFA世界杯一站式资讯平台。赛程、比分、球队档案、实时更新尽在掌握。",
+    "footer.desc": "2026年足球锦标赛一站式资讯平台。赛程、比分、球队档案、实时更新尽在掌握。",
     "footer.quick": "快速链接",
     "footer.resources": "资源",
     "footer.follow": "关注我们",
@@ -252,7 +252,7 @@ export const translations = {
     "footer.faq": "常见问题",
     "footer.contact": "联系我们",
     "footer.disclaimer": "这是一个非官方球迷网站，与FIFA无关。",
-    "footer.socialNote": "关注FIFA世界杯官方社交账号获取实时动态。",
+    "footer.socialNote": "关注2026足球锦标赛官方社交账号获取实时动态。",
     "footer.privacy": "隐私政策",
     "footer.terms": "服务条款",
     "footer.advertise": "广告合作",

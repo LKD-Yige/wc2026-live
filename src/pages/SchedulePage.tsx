@@ -51,11 +51,11 @@ export default function SchedulePage() {
   return (
     <div>
       <Seo
-        title={lang === "zh" ? "2026世界杯完整赛程 — 全部104场比赛" : "World Cup 2026 Full Schedule — All 104 Matches"}
+        title={lang === "zh" ? "2026世界杯完整赛程 — 全部104场比赛" : "2026 Tournament Full Schedule — All 104 Matches"}
         description={
           lang === "zh"
             ? "2026年美加墨世界杯完整赛程：小组赛、淘汰赛、半决赛、决赛。48支球队，16座主办城市，104场比赛时间表。"
-            : "Complete FIFA World Cup 2026 match schedule: group stage, knockout rounds, semi-finals, final. 48 teams, 16 host cities, 104 matches."
+            : "Complete 2026 tournament match schedule: group stage, knockout rounds, semi-finals, final. 48 teams, 16 host cities, 104 matches."
         }
         canonical="/schedule"
         ogType="website"

@@ -22,8 +22,8 @@ export function Footer() {
           <div className="space-y-3">
             <Link to="/" className="flex items-center gap-2 font-bold text-lg">
               <Trophy className="h-5 w-5 text-amber-500" />
-              <span className="bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent">
-                WC2026 Live
+              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                Global Football Live
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">{t("footer.desc")}</p>
@@ -73,7 +73,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t text-center text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} WC2026 Live. {t("footer.disclaimer")}</p>
+          <p>&copy; {new Date().getFullYear()} Global Football Live. {t("footer.disclaimer")}</p>
           <p className="mt-1">
             <Link to="/privacy" className="hover:text-foreground transition-colors">{t("footer.privacy")}</Link>
             {" · "}

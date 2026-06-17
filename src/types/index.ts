@@ -59,6 +59,7 @@ export interface NewsItem {
   id: string;
   title: string;
   excerpt: string;
+  content?: string;
   image: string;
   date: string;
   category: "match-report" | "team-news" | "feature" | "transfer";

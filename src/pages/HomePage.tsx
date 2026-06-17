@@ -20,11 +20,11 @@ export default function HomePage() {
   return (
     <div>
       <Seo
-        title={isZh ? "FIFA 2026年世界杯 — 赛程、比分、新闻直播" : "FIFA World Cup 2026 — Schedule, Scores, News"}
+        title={isZh ? "2026足球锦标赛 — 赛程、比分、新闻直播" : "2026 Football Tournament — Schedule, Scores, News"}
         description={
           isZh
-            ? "2026年美加墨世界杯官方球迷资讯站。实时比分、完整赛程、48支球队详情、最新新闻，一站式覆盖。"
-            : "Your ultimate destination for FIFA World Cup 2026 in USA, Canada & Mexico. Live scores, full schedule, 48 teams, latest news & more."
+            ? "2026年美加墨足球锦标赛资讯站。实时比分、完整赛程、48支球队详情、最新新闻，一站式覆盖。"
+            : "Your ultimate destination for the 2026 football tournament in USA, Canada & Mexico. Live scores, full schedule, 48 teams, latest news & more."
         }
         canonical="/"
         ogImage="/og-home.jpg"

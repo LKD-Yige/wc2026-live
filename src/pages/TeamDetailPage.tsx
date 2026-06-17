@@ -39,11 +39,11 @@ export default function TeamDetailPage() {
   return (
     <div>
       <Seo
-        title={`${team.nameEn} — World Cup 2026 Team Profile`}
+        title={`${team.nameEn} — 2026 Tournament Team Profile`}
         description={
           lang === "zh"
-            ? `${team.name}（${team.nameEn}）— 2026世界杯球队详情：FIFA排名 #${team.ranking}，主教练 ${team.coach}，历史最佳成绩 ${team.bestResult}。`
-            : `${team.nameEn} — FIFA World Cup 2026 team profile: FIFA ranking #${team.ranking}, coach ${team.coach}, best result: ${team.bestResult}.`
+            ? `${team.name}（${team.nameEn}）— 2026球队详情：world ranking #${team.ranking}，主教练 ${team.coach}，历史最佳成绩 ${team.bestResult}。`
+            : `${team.nameEn} — FIFA 2026 Tournament team profile: world ranking #${team.ranking}, coach ${team.coach}, best result: ${team.bestResult}.`
         }
         canonical={`/teams/${teamId}`}
         ogImage={`https://flagcdn.com/w320/${team.fifaCode.toLowerCase()}.png`}

@@ -22,11 +22,11 @@ export default function ScoresPage() {
   return (
     <div>
       <Seo
-        title={lang === "zh" ? "2026世界杯比分直播 — 小组积分榜" : "World Cup 2026 Live Scores — Group Standings"}
+        title={lang === "zh" ? "2026足球锦标赛比分直播 — 小组积分榜" : "2026 Football Live Scores — Group Standings"}
         description={
           lang === "zh"
             ? "2026年世界杯实时比分、小组积分榜、今日赛果。覆盖全部12个小组48支球队。"
-            : "Live scores, group standings and today's results for FIFA World Cup 2026. All 12 groups, 48 teams."
+            : "Live scores, group standings and today's results for 2026 tournament. All 12 groups, 48 teams."
         }
         canonical="/scores"
         ogType="website"

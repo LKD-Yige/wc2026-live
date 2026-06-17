@@ -2,16 +2,16 @@ import { useI18n } from "@/i18n/context";
 
 const FAQ_ITEMS_EN = [
   {
-    q: "When does the 2026 World Cup start?",
+    q: "When does the 2026 tournament start?",
     a: "The tournament kicks off on June 11, 2026, with the opening match at Estadio Azteca in Mexico City. The final will be played on July 19, 2026, at MetLife Stadium in New York/New Jersey.",
   },
   {
-    q: "How many teams are in the 2026 World Cup?",
+    q: "How many teams are in the 2026 tournament?",
     a: "The 2026 tournament features 48 teams, expanded from the previous 32. The teams are divided into 12 groups of 4, with the top 2 from each group plus the 8 best third-place teams advancing to the round of 32.",
   },
   {
-    q: "Which countries are hosting the 2026 World Cup?",
-    a: "The tournament is co-hosted by the United States (11 host cities), Canada (2 cities: Vancouver and Toronto), and Mexico (3 cities: Mexico City, Guadalajara, and Monterrey). This is the first World Cup hosted by three countries.",
+    q: "Which countries are hosting the 2026 tournament?",
+    a: "The tournament is co-hosted by the United States (11 host cities), Canada (2 cities: Vancouver and Toronto), and Mexico (3 cities: Mexico City, Guadalajara, and Monterrey). This is the first tournament hosted by three countries.",
   },
   {
     q: "How many matches are there in total?",
@@ -76,7 +76,7 @@ export function FAQ() {
           <p className="text-muted-foreground">
             {lang === "zh"
               ? "关于2026年FIFA世界杯的常见问题解答"
-              : "Answers to common questions about the 2026 FIFA World Cup"}
+              : "Answers to common questions about the 2026 2026 tournament"}
           </p>
         </div>
       </section>

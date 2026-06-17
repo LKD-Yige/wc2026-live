@@ -68,8 +68,13 @@ export default function NewsDetailPage() {
             <Card>
               <CardContent className="p-6 sm:p-8">
                 <article className="prose dark:prose-invert max-w-none">
-                  <p className="text-lg leading-relaxed text-muted-foreground">{article.excerpt}</p>
-                  <p className="leading-relaxed mt-4">{t("news.preview")}</p>
+                  {article.content ? (
+                    article.content.split("\n\n").map((para, i) => (
+                      <p key={i} className="leading-relaxed mb-4">{para.trim()}</p>
+                    ))
+                  ) : (
+                    <p className="text-lg leading-relaxed text-muted-foreground">{article.excerpt}</p>
+                  )}
                 </article>
               </CardContent>
             </Card>

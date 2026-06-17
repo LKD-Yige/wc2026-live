@@ -12,8 +12,8 @@ export function Advertise() {
           </h1>
           <p className="text-muted-foreground">
             {lang === "zh"
-              ? "WC2026 Live 面向全球世界杯球迷，是您品牌曝光的理想平台。"
-              : "WC2026 Live reaches football fans worldwide. The ideal platform for your brand exposure."}
+              ? "Global Football Live 面向全球世界杯球迷，是您品牌曝光的理想平台。"
+              : "Global Football Live reaches football fans worldwide. The ideal platform for your brand exposure."}
           </p>
         </div>
       </section>

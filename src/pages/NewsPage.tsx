@@ -13,11 +13,11 @@ export default function NewsPage() {
   return (
     <div>
       <Seo
-        title={lang === "zh" ? "2026世界杯新闻 — 最新资讯" : "World Cup 2026 News — Latest Updates"}
+        title={lang === "zh" ? "2026足球锦标赛新闻 — 最新资讯" : "2026 Football Tournament News — Latest Updates"}
         description={
           lang === "zh"
-            ? "2026年美加墨世界杯最新新闻资讯：赛果、球队动态、球星消息、赛事分析。"
-            : "Latest FIFA World Cup 2026 news: match results, team updates, star players, tournament analysis."
+            ? "2026年美加墨足球锦标赛最新新闻资讯：赛果、球队动态、球星消息、赛事分析。"
+            : "Latest 2026 football tournament news: match results, team updates, star players, tournament analysis."
         }
         canonical="/news"
         ogType="website"

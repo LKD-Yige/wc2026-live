@@ -70,8 +70,8 @@ export function Contact() {
         <div className="container mx-auto max-w-2xl mt-8 text-center text-sm text-muted-foreground">
           <p>
             {lang === "zh"
-              ? "WC2026 Live 是一个由球迷建立的非官方网站，与FIFA无任何关联。"
-              : "WC2026 Live is an unofficial fan site and is not affiliated with FIFA."}
+              ? "Global Football Live 是一个由球迷建立的非官方网站，与FIFA无任何关联。"
+              : "Global Football Live is an unofficial fan site and is not affiliated with FIFA."}
           </p>
         </div>
       </section>
