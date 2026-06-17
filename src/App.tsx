@@ -11,6 +11,12 @@ import TeamDetailPage from "@/pages/TeamDetailPage";
 import ScoresPage from "@/pages/ScoresPage";
 import NewsPage from "@/pages/NewsPage";
 import NewsDetailPage from "@/pages/NewsDetailPage";
+import { HostCities } from "@/pages/HostCities";
+import { FAQ } from "@/pages/FAQ";
+import { Contact } from "@/pages/Contact";
+import { PrivacyPolicy } from "@/pages/PrivacyPolicy";
+import { TermsOfService } from "@/pages/TermsOfService";
+import { Advertise } from "@/pages/Advertise";
 
 export default function App() {
   return (
@@ -29,6 +35,12 @@ export default function App() {
                   <Route path="/scores" element={<ScoresPage />} />
                   <Route path="/news" element={<NewsPage />} />
                   <Route path="/news/:slug" element={<NewsDetailPage />} />
+                  <Route path="/host-cities" element={<HostCities />} />
+                  <Route path="/faq" element={<FAQ />} />
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path="/privacy" element={<PrivacyPolicy />} />
+                  <Route path="/terms" element={<TermsOfService />} />
+                  <Route path="/advertise" element={<Advertise />} />
                 </Routes>
               </main>
               <Footer />
