@@ -32,6 +32,8 @@ const data = {
     { id: "m17", date: "2026-06-16", time: "15:00", stage: "Group Stage", group: "I", homeTeam: "FRA", awayTeam: "SEN", venue: "MetLife Stadium", city: "New York", status: "finished", homeScore: 3, awayScore: 1 },
     { id: "m18", date: "2026-06-16", time: "18:00", stage: "Group Stage", group: "I", homeTeam: "IRQ", awayTeam: "NOR", venue: "Gillette Stadium", city: "Boston", status: "finished", homeScore: 1, awayScore: 4 },
     { id: "m19", date: "2026-06-16", time: "21:00", stage: "Group Stage", group: "J", homeTeam: "ARG", awayTeam: "ALG", venue: "Arrowhead Stadium", city: "Kansas City", status: "finished", homeScore: 3, awayScore: 0 },
+    { id: "m20", date: "2026-06-17", time: "15:00", stage: "Group Stage", group: "J", homeTeam: "AUT", awayTeam: "JOR", venue: "NRG Stadium", city: "Houston", status: "finished", homeScore: 3, awayScore: 1 },
+    { id: "m21", date: "2026-06-17", time: "13:00", stage: "Group Stage", group: "K", homeTeam: "POR", awayTeam: "COD", venue: "NRG Stadium", city: "Houston", status: "finished", homeScore: 1, awayScore: 1 },
   ],
   standings: {
     A: [{ fifaCode: "MEX", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 2, goalsAgainst: 0, points: 3 }, { fifaCode: "KOR", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 2, goalsAgainst: 1, points: 3 }, { fifaCode: "CZE", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 2, points: 0 }, { fifaCode: "RSA", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 0, goalsAgainst: 2, points: 0 }],
@@ -46,9 +48,9 @@ const data = {
     J: [{ fifaCode: "ARG", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 0, points: 3 }, { fifaCode: "ALG", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 0, goalsAgainst: 3, points: 0 }, { fifaCode: "AUT", played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }, { fifaCode: "JOR", played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }],
   },
   summary: {
-    totalMatches: 19,
-    totalGoals: 50,
-    groupsActive: 9,
+    totalMatches: 21,
+    totalGoals: 64,
+    groupsActive: 11,
   },
 };
 
@@ -56,4 +58,4 @@ const outDir = path.join(__dirname, "..", "public", "api");
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, "scores.json"), JSON.stringify(data, null, 2));
 console.log(`✅ Live data generated at ${now}`);
-console.log(`   19 matches, 50 goals, 10 groups`);
+console.log(`   ${data.summary.totalMatches} matches, ${data.summary.totalGoals} goals, ${data.summary.groupsActive} groups`);

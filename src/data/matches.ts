@@ -39,6 +39,8 @@ export const completedMatches: Match[] = [
   m("m19", "2026-06-16", "21:00", "Group Stage", "J", "ARG", "ALG", "Kansas City", "Arrowhead Stadium", "finished", 3, 0),
   // June 17
   m("m20", "2026-06-17", "15:00", "Group Stage", "J", "AUT", "JOR", "Houston", "NRG Stadium", "finished", 3, 1),
+  // June 17
+  m("m21", "2026-06-17", "13:00", "Group Stage", "K", "POR", "COD", "Houston", "NRG Stadium", "finished", 1, 1),
 ];
 
 // ========== TODAY (June 17) ==========
@@ -47,14 +49,13 @@ export const todayMatches: Match[] = [
 
 // ========== UPCOMING: June 17 ==========
 export const upcomingJune17: Match[] = [
-  m("m21", "2026-06-17", "18:00", "Group Stage", "K", "POR", "COD", "Philadelphia", "Lincoln Financial Field", "upcoming"),
-  m("m22", "2026-06-17", "21:00", "Group Stage", "K", "UZB", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
+  m("m23", "2026-06-17", "16:00", "Group Stage", "L", "ENG", "CRO", "Dallas", "AT&T Stadium", "upcoming"),
+  m("m24", "2026-06-17", "19:00", "Group Stage", "L", "GHA", "PAN", "Toronto", "BMO Field", "upcoming"),
+  m("m22", "2026-06-17", "22:00", "Group Stage", "K", "UZB", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
 ];
 
 // ========== UPCOMING: June 18 ==========
 export const upcomingJune18: Match[] = [
-  m("m23", "2026-06-18", "15:00", "Group Stage", "L", "ENG", "CRO", "Dallas", "AT&T Stadium", "upcoming"),
-  m("m24", "2026-06-18", "18:00", "Group Stage", "L", "GHA", "PAN", "Vancouver", "BC Place", "upcoming"),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
