@@ -45,18 +45,14 @@ export const completedMatches: Match[] = [
   m("m23", "2026-06-17", "16:00", "Group Stage", "L", "ENG", "CRO", "Dallas", "AT&T Stadium", "finished", 4, 2),
 ];
 
-// ========== TODAY (June 17) ==========
+// ========== TODAY (June 18) ==========
 export const todayMatches: Match[] = [
-];
-
-// ========== UPCOMING: June 17 ==========
-export const upcomingJune17: Match[] = [
-  m("m24", "2026-06-17", "19:00", "Group Stage", "L", "GHA", "PAN", "Toronto", "BMO Field", "upcoming"),
-  m("m22", "2026-06-17", "22:00", "Group Stage", "K", "UZB", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
+  m("m24", "2026-06-18", "19:00", "Group Stage", "L", "GHA", "PAN", "Toronto", "BMO Field", "live", 0, 0),
 ];
 
 // ========== UPCOMING: June 18 ==========
 export const upcomingJune18: Match[] = [
+  m("m22", "2026-06-18", "22:00", "Group Stage", "K", "UZB", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -168,7 +164,7 @@ export const knockoutMatches: Match[] = [
   ko("final", "2026-07-19", "16:00", "Final", 0),
 ];
 
-export const allMatches = [...completedMatches, ...todayMatches, ...upcomingJune17, ...upcomingJune18, ...remainingMatches, ...knockoutMatches];
+export const allMatches = [...completedMatches, ...todayMatches, ...upcomingJune18, ...remainingMatches, ...knockoutMatches];
 
 export const getMatchesByDate = (date: string): Match[] =>
   allMatches.filter((m) => m.date === date);
