@@ -53,7 +53,7 @@ export const completedMatches: Match[] = [
 export const todayMatches: Match[] = [
   // June 18 - Completed matches
   m("m74", "2026-06-18", "12:00", "Group Stage", "A", "CZE", "RSA", "Atlanta", "Mercedes-Benz Stadium", "finished", 1, 1),
-  m("m75", "2026-06-18", "15:00", "Group Stage", "B", "SUI", "BIH", "Los Angeles", "SoFi Stadium", "finished", 2, 1),
+  m("m75", "2026-06-18", "15:00", "Group Stage", "B", "SUI", "BIH", "Los Angeles", "SoFi Stadium", "finished", 1, 0),
   m("m76", "2026-06-18", "18:00", "Group Stage", "B", "CAN", "QAT", "Vancouver", "BC Place", "finished", 2, 0),
   m("m77", "2026-06-18", "21:00", "Group Stage", "A", "MEX", "KOR", "Guadalajara", "Estadio Akron", "finished", 1, 2),
   m("m78", "2026-06-18", "19:00", "Group Stage", "K", "COL", "UZB", "Santa Clara", "Levi's Stadium", "finished", 3, 1),
