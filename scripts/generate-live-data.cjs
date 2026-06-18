@@ -35,10 +35,10 @@ const data = {
     { id: "m20", date: "2026-06-17", time: "15:00", stage: "Group Stage", group: "J", homeTeam: "AUT", awayTeam: "JOR", venue: "NRG Stadium", city: "Houston", status: "finished", homeScore: 3, awayScore: 1 },
     { id: "m21", date: "2026-06-17", time: "13:00", stage: "Group Stage", group: "K", homeTeam: "POR", awayTeam: "COD", venue: "NRG Stadium", city: "Houston", status: "finished", homeScore: 1, awayScore: 1 },
     { id: "m23", date: "2026-06-17", time: "16:00", stage: "Group Stage", group: "L", homeTeam: "ENG", awayTeam: "CRO", venue: "AT&T Stadium", city: "Dallas", status: "finished", homeScore: 4, awayScore: 2 },
+    { id: "m24", date: "2026-06-18", time: "19:00", stage: "Group Stage", group: "L", homeTeam: "GHA", awayTeam: "PAN", venue: "BMO Field", city: "Toronto", status: "finished", homeScore: 1, awayScore: 0 },
+    { id: "m22", date: "2026-06-18", time: "22:00", stage: "Group Stage", group: "K", homeTeam: "UZB", awayTeam: "COL", venue: "Levi's Stadium", city: "Santa Clara", status: "finished", homeScore: 1, awayScore: 3 },
   ],
-  liveMatches: [
-    { id: "m24", date: "2026-06-18", time: "19:00", stage: "Group Stage", group: "L", homeTeam: "GHA", awayTeam: "PAN", venue: "BMO Field", city: "Toronto", status: "live", homeScore: 0, awayScore: 0 },
-  ],
+  liveMatches: [],
   standings: {
     A: [{ fifaCode: "MEX", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 2, goalsAgainst: 0, points: 3 }, { fifaCode: "KOR", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 2, goalsAgainst: 1, points: 3 }, { fifaCode: "CZE", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 2, points: 0 }, { fifaCode: "RSA", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 0, goalsAgainst: 2, points: 0 }],
     B: [{ fifaCode: "CAN", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "QAT", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "SUI", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "BIH", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }],
@@ -50,13 +50,14 @@ const data = {
     H: [{ fifaCode: "ESP", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 1 }, { fifaCode: "KSA", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "URU", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "CPV", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 1 }],
     I: [{ fifaCode: "FRA", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 1, points: 3 }, { fifaCode: "NOR", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 4, goalsAgainst: 1, points: 3 }, { fifaCode: "SEN", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 3, points: 0 }, { fifaCode: "IRQ", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 4, points: 0 }],
     J: [{ fifaCode: "ARG", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 0, points: 3 }, { fifaCode: "AUT", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 1, points: 3 }, { fifaCode: "JOR", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 3, points: 0 }, { fifaCode: "ALG", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 0, goalsAgainst: 3, points: 0 }],
-    L: [{ fifaCode: "ENG", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 4, goalsAgainst: 2, points: 3 }, { fifaCode: "CRO", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 2, goalsAgainst: 4, points: 0 }, { fifaCode: "GHA", played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }, { fifaCode: "PAN", played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 }],
+    K: [{ fifaCode: "COL", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 3, goalsAgainst: 1, points: 3 }, { fifaCode: "POR", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "COD", played: 1, won: 0, drawn: 1, lost: 0, goalsFor: 1, goalsAgainst: 1, points: 1 }, { fifaCode: "UZB", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 3, points: 0 }],
+    L: [{ fifaCode: "ENG", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 4, goalsAgainst: 2, points: 3 }, { fifaCode: "GHA", played: 1, won: 1, drawn: 0, lost: 0, goalsFor: 1, goalsAgainst: 0, points: 3 }, { fifaCode: "CRO", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 2, goalsAgainst: 4, points: 0 }, { fifaCode: "PAN", played: 1, won: 0, drawn: 0, lost: 1, goalsFor: 0, goalsAgainst: 1, points: 0 }],
   },
   summary: {
-    totalMatches: 22,
-    totalGoals: 66,
+    totalMatches: 24,
+    totalGoals: 70,
     groupsActive: 12,
-    liveMatches: 1,
+    liveMatches: 0,
   },
 };
 
