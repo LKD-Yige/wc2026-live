@@ -70,8 +70,8 @@ export const upcomingJune18: Match[] = [
 export const remainingMatches: Match[] = [
   // MD2: June 19-26 (FIFA official schedule)
   // June 20 (Group C & D)
-  m("m29", "2026-06-20", "18:00", "Group Stage", "C", "SCO", "MAR", "Boston", "Gillette Stadium", "live", 0, 1),
-  m("m30", "2026-06-20", "20:30", "Group Stage", "C", "BRA", "HAI", "Philadelphia", "Lincoln Financial Field", "upcoming"),
+  m("m29", "2026-06-20", "18:00", "Group Stage", "C", "SCO", "MAR", "Boston", "Gillette Stadium", "finished", 0, 1),
+  m("m30", "2026-06-20", "20:30", "Group Stage", "C", "BRA", "HAI", "Philadelphia", "Lincoln Financial Field", "live", 0, 0),
   m("m31", "2026-06-20", "23:00", "Group Stage", "D", "TUR", "PAR", "San Francisco", "Levi's Stadium", "upcoming"),
   // June 21 (Group E & F)
   m("m32", "2026-06-21", "15:00", "Group Stage", "E", "CUW", "CIV", "Miami", "Hard Rock Stadium", "upcoming"),
