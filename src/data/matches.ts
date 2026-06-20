@@ -76,8 +76,8 @@ export const remainingMatches: Match[] = [
   // June 21 (Group E & F)
   m("m32", "2026-06-21", "15:00", "Group Stage", "E", "CUW", "CIV", "Miami", "Hard Rock Stadium", "upcoming"),
   m("m33", "2026-06-21", "21:00", "Group Stage", "E", "GER", "ECU", "Houston", "NRG Stadium", "upcoming"),
-  m("m34", "2026-06-21", "18:00", "Group Stage", "F", "TUN", "NED", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
-  m("m35", "2026-06-21", "15:00", "Group Stage", "F", "SWE", "JPN", "Kansas City", "Arrowhead Stadium", "upcoming"),
+  m("m34", "2026-06-21", "13:00", "Group Stage", "F", "NED", "SWE", "Houston", "NRG Stadium", "finished", 5, 1),
+  m("m35", "2026-06-21", "18:00", "Group Stage", "F", "TUN", "JPN", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
   // June 22 (Group G & H)
   m("m36", "2026-06-22", "15:00", "Group Stage", "G", "NZL", "BEL", "San Francisco", "Levi's Stadium", "upcoming"),
   m("m37", "2026-06-22", "21:00", "Group Stage", "G", "IRN", "EGY", "Los Angeles", "SoFi Stadium", "upcoming"),
