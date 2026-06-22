@@ -83,11 +83,11 @@ export const remainingMatches: Match[] = [
   m("m37", "2026-06-21", "21:00", "Group Stage", "G", "NZL", "EGY", "Vancouver", "BC Place", "finished", 1, 3),
   m("m38", "2026-06-21", "12:00", "Group Stage", "H", "ESP", "KSA", "Atlanta", "Mercedes-Benz Stadium", "finished", 4, 0),
   m("m39", "2026-06-21", "18:00", "Group Stage", "H", "URY", "CPV", "Miami", "Hard Rock Stadium", "finished", 2, 2),
-  // June 23 (Group I & J)
-  m("m40", "2026-06-23", "15:00", "Group Stage", "I", "SEN", "IRQ", "Dallas", "AT&T Stadium", "upcoming"),
-  m("m41", "2026-06-23", "21:00", "Group Stage", "I", "FRA", "NOR", "New York", "MetLife Stadium", "upcoming"),
-  m("m42", "2026-06-23", "18:00", "Group Stage", "J", "ALG", "AUT", "Boston", "Gillette Stadium", "upcoming"),
-  m("m43", "2026-06-23", "15:00", "Group Stage", "J", "ARG", "JOR", "Kansas City", "Arrowhead Stadium", "upcoming"),
+  // June 23 (Group I & J) - MD2 matches
+  m("m40", "2026-06-23", "17:00", "Group Stage", "I", "FRA", "IRQ", "Philadelphia", "Lincoln Financial Field", "upcoming"),
+  m("m41", "2026-06-23", "20:00", "Group Stage", "I", "NOR", "SEN", "New York", "MetLife Stadium", "upcoming"),
+  m("m42", "2026-06-23", "23:00", "Group Stage", "J", "JOR", "ALG", "Santa Clara", "Levi's Stadium", "upcoming"),
+  m("m43", "2026-06-22", "13:00", "Group Stage", "J", "ARG", "AUT", "Arlington", "AT&T Stadium", "finished", 1, 0),
   // June 24 (Group K & L)
   m("m44", "2026-06-24", "15:00", "Group Stage", "K", "COD", "UZB", "Seattle", "Lumen Field", "upcoming"),
   m("m45", "2026-06-24", "21:00", "Group Stage", "K", "POR", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
