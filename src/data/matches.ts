@@ -85,7 +85,7 @@ export const remainingMatches: Match[] = [
   m("m39", "2026-06-21", "18:00", "Group Stage", "H", "URY", "CPV", "Miami", "Hard Rock Stadium", "finished", 2, 2),
   // June 23 (Group I & J) - MD2 matches
   m("m40", "2026-06-23", "17:00", "Group Stage", "I", "FRA", "IRQ", "Philadelphia", "Lincoln Financial Field", "finished", 3, 0),
-  m("m41", "2026-06-23", "20:00", "Group Stage", "I", "NOR", "SEN", "New York", "MetLife Stadium", "upcoming"),
+  m("m41", "2026-06-23", "20:00", "Group Stage", "I", "NOR", "SEN", "New York", "MetLife Stadium", "finished", 3, 2),
   m("m42", "2026-06-23", "23:00", "Group Stage", "J", "JOR", "ALG", "Santa Clara", "Levi's Stadium", "upcoming"),
   m("m43", "2026-06-22", "13:00", "Group Stage", "J", "ARG", "AUT", "Arlington", "AT&T Stadium", "finished", 2, 0),
   // June 24 (Group K & L)
