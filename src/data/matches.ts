@@ -88,12 +88,12 @@ export const remainingMatches: Match[] = [
   m("m41", "2026-06-23", "20:00", "Group Stage", "I", "NOR", "SEN", "New York", "MetLife Stadium", "finished", 3, 2),
   m("m42", "2026-06-23", "23:00", "Group Stage", "J", "JOR", "ALG", "Santa Clara", "Levi's Stadium", "finished", 1, 2),
   m("m43", "2026-06-22", "13:00", "Group Stage", "J", "ARG", "AUT", "Arlington", "AT&T Stadium", "finished", 2, 0),
-  // June 24 (Group K & L)
-  m("m44", "2026-06-24", "15:00", "Group Stage", "K", "COD", "UZB", "Seattle", "Lumen Field", "upcoming"),
-  m("m45", "2026-06-24", "21:00", "Group Stage", "K", "POR", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
-  m("m46", "2026-06-24", "18:00", "Group Stage", "L", "CRO", "GHA", "Vancouver", "BC Place", "upcoming"),
-  m("m47", "2026-06-24", "15:00", "Group Stage", "L", "ENG", "PAN", "Dallas", "AT&T Stadium", "upcoming"),
-  // MD3: June 27-30
+  // June 23 (Group K & L) - MD2 matches
+  m("m44", "2026-06-23", "13:00", "Group Stage", "K", "COD", "UZB", "Seattle", "Lumen Field", "upcoming"),
+  m("m45", "2026-06-23", "21:00", "Group Stage", "K", "POR", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
+  m("m46", "2026-06-23", "17:00", "Group Stage", "L", "ENG", "GHA", "Foxborough", "Gillette Stadium", "upcoming"),
+  m("m47", "2026-06-23", "19:00", "Group Stage", "L", "PAN", "CRO", "Toronto", "BMO Field", "upcoming"),
+  // MD3: June 27 - July 1
   m("m49", "2026-06-27", "16:00", "Group Stage", "A", "MEX", "KOR", "Mexico City", "Estadio Azteca", "upcoming"),
   m("m50", "2026-06-27", "16:00", "Group Stage", "A", "RSA", "CZE", "Guadalajara", "Estadio Akron", "upcoming"),
   m("m51", "2026-06-27", "20:00", "Group Stage", "B", "CAN", "QAT", "Toronto", "BMO Field", "upcoming"),
@@ -114,7 +114,7 @@ export const remainingMatches: Match[] = [
   m("m66", "2026-06-30", "20:00", "Group Stage", "I", "SEN", "NOR", "Dallas", "AT&T Stadium", "upcoming"),
   m("m67", "2026-06-30", "20:00", "Group Stage", "J", "ARG", "AUT", "Kansas City", "Arrowhead Stadium", "upcoming"),
   m("m68", "2026-06-30", "20:00", "Group Stage", "J", "ALG", "JOR", "Boston", "Gillette Stadium", "upcoming"),
-  m("m69", "2026-07-01", "16:00", "Group Stage", "K", "POR", "UZB", "Santa Clara", "Levi's Stadium", "upcoming"),
+  m("m69", "2026-06-23", "13:00", "Group Stage", "K", "POR", "UZB", "Houston", "NRG Stadium", "finished", 5, 0),
   m("m70", "2026-07-01", "16:00", "Group Stage", "K", "COL", "COD", "Seattle", "Lumen Field", "upcoming"),
   m("m71", "2026-07-01", "20:00", "Group Stage", "L", "ENG", "GHA", "Dallas", "AT&T Stadium", "upcoming"),
   m("m72", "2026-07-01", "20:00", "Group Stage", "L", "CRO", "PAN", "Vancouver", "BC Place", "upcoming"),
