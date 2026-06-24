@@ -57,7 +57,7 @@ export const todayMatches: Match[] = [
   // June 18 - Completed matches (evening)
   m("m76", "2026-06-18", "18:00", "Group Stage", "B", "CAN", "QAT", "Vancouver", "BC Place", "finished", 6, 0),
   m("m77", "2026-06-19", "21:00", "Group Stage", "A", "MEX", "KOR", "Guadalajara", "Estadio Akron", "finished", 1, 0),
-  m("m78", "2026-06-24", "10:00", "Group Stage", "K", "COL", "COD", "Guadalajara", "Estadio Akron", "finished", 0, 0),
+  m("m78", "2026-06-24", "09:00", "Group Stage", "K", "COL", "COD", "Guadalajara", "Estadio Akron", "finished", 1, 0),
   // June 20 - Completed match
   m("m79", "2026-06-20", "15:00", "Group Stage", "D", "USA", "AUS", "Seattle", "Lumen Field", "finished", 2, 0),
 ];
