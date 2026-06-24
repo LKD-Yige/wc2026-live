@@ -61,8 +61,8 @@ export const todayMatches: Match[] = [
   // June 20 - Completed match
   m("m79", "2026-06-20", "15:00", "Group Stage", "D", "USA", "AUS", "Seattle", "Lumen Field", "finished", 2, 0),
   // June 24 - MD3 matches (Group B)
-  m("m80", "2026-06-24", "15:00", "Group Stage", "B", "BIH", "QAT", "Seattle", "Lumen Field", "finished", 2, 1),
-  m("m81", "2026-06-24", "15:00", "Group Stage", "B", "SUI", "CAN", "Vancouver", "BC Place", "finished", 0, 0),
+  m("m80", "2026-06-25", "01:00", "Group Stage", "B", "BIH", "QAT", "Seattle", "Lumen Field", "finished", 3, 1),
+  m("m81", "2026-06-24", "21:00", "Group Stage", "B", "SUI", "CAN", "Vancouver", "BC Place", "finished", 2, 1),
 ];
 
 // ========== UPCOMING: June 18 ==========
