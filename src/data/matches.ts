@@ -91,8 +91,8 @@ export const remainingMatches: Match[] = [
   // June 23 (Group K & L) - MD2 matches
   m("m44", "2026-06-27", "20:00", "Group Stage", "K", "COD", "UZB", "Seattle", "Lumen Field", "upcoming"),
   m("m45", "2026-06-27", "21:00", "Group Stage", "K", "POR", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
-  m("m46", "2026-06-23", "17:00", "Group Stage", "L", "ENG", "GHA", "Foxborough", "Gillette Stadium", "finished", 0, 0),
-  m("m47", "2026-06-23", "19:00", "Group Stage", "L", "PAN", "CRO", "Toronto", "BMO Field", "finished", 0, 2),
+  m("m46", "2026-06-24", "17:00", "Group Stage", "L", "ENG", "GHA", "Foxborough", "Gillette Stadium", "finished", 0, 0),
+  m("m47", "2026-06-24", "19:00", "Group Stage", "L", "PAN", "CRO", "Toronto", "BMO Field", "finished", 0, 1),
   // MD3: June 27 - July 1
   m("m49", "2026-06-27", "16:00", "Group Stage", "A", "MEX", "KOR", "Mexico City", "Estadio Azteca", "upcoming"),
   m("m50", "2026-06-27", "16:00", "Group Stage", "A", "RSA", "CZE", "Guadalajara", "Estadio Akron", "upcoming"),
@@ -114,7 +114,7 @@ export const remainingMatches: Match[] = [
   m("m66", "2026-06-30", "20:00", "Group Stage", "I", "SEN", "NOR", "Dallas", "AT&T Stadium", "upcoming"),
   m("m67", "2026-06-30", "20:00", "Group Stage", "J", "ARG", "AUT", "Kansas City", "Arrowhead Stadium", "upcoming"),
   m("m68", "2026-06-30", "20:00", "Group Stage", "J", "ALG", "JOR", "Boston", "Gillette Stadium", "upcoming"),
-  m("m69", "2026-06-23", "13:00", "Group Stage", "K", "POR", "UZB", "Houston", "NRG Stadium", "finished", 5, 0),
+  m("m69", "2026-06-24", "13:00", "Group Stage", "K", "POR", "UZB", "Houston", "NRG Stadium", "finished", 5, 0),
   m("m70", "2026-07-01", "16:00", "Group Stage", "K", "COL", "COD", "Seattle", "Lumen Field", "upcoming"),
   m("m71", "2026-07-01", "20:00", "Group Stage", "L", "ENG", "GHA", "Dallas", "AT&T Stadium", "upcoming"),
   m("m72", "2026-07-01", "20:00", "Group Stage", "L", "CRO", "PAN", "Vancouver", "BC Place", "upcoming"),
