@@ -60,9 +60,12 @@ export const todayMatches: Match[] = [
   m("m78", "2026-06-24", "09:00", "Group Stage", "K", "COL", "COD", "Guadalajara", "Estadio Akron", "finished", 1, 0),
   // June 20 - Completed match
   m("m79", "2026-06-20", "15:00", "Group Stage", "D", "USA", "AUS", "Seattle", "Lumen Field", "finished", 2, 0),
-  // June 24 - MD3 matches (Group B)
+  // June 24-25 - MD3 matches (Group B)
   m("m80", "2026-06-25", "01:00", "Group Stage", "B", "BIH", "QAT", "Seattle", "Lumen Field", "finished", 3, 1),
   m("m81", "2026-06-24", "21:00", "Group Stage", "B", "SUI", "CAN", "Vancouver", "BC Place", "finished", 2, 1),
+  // June 24-25 - MD3 matches (Group C)
+  m("m82", "2026-06-25", "18:00", "Group Stage", "C", "MAR", "HAI", "Atlanta", "Mercedes-Benz Stadium", "finished", 4, 2),
+  m("m83", "2026-06-25", "18:00", "Group Stage", "C", "SCO", "BRA", "Miami Gardens", "Hard Rock Stadium", "finished", 0, 3),
 ];
 
 // ========== UPCOMING: June 18 ==========
@@ -101,8 +104,6 @@ export const remainingMatches: Match[] = [
   m("m50", "2026-06-27", "16:00", "Group Stage", "A", "RSA", "CZE", "Guadalajara", "Estadio Akron", "upcoming"),
   m("m51", "2026-06-27", "20:00", "Group Stage", "B", "CAN", "QAT", "Toronto", "BMO Field", "upcoming"),
   m("m52", "2026-06-27", "20:00", "Group Stage", "B", "BIH", "SUI", "Vancouver", "BC Place", "upcoming"),
-  m("m53", "2026-06-28", "16:00", "Group Stage", "C", "BRA", "HAI", "New York", "MetLife Stadium", "upcoming"),
-  m("m54", "2026-06-28", "16:00", "Group Stage", "C", "MAR", "SCO", "Boston", "Gillette Stadium", "upcoming"),
   m("m55", "2026-06-28", "20:00", "Group Stage", "D", "USA", "AUS", "Los Angeles", "SoFi Stadium", "upcoming"),
   m("m56", "2026-06-28", "20:00", "Group Stage", "D", "PAR", "TUR", "Seattle", "Lumen Field", "upcoming"),
   m("m57", "2026-06-29", "16:00", "Group Stage", "E", "GER", "CIV", "Houston", "NRG Stadium", "upcoming"),

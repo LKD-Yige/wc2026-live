@@ -25,10 +25,10 @@ export const standings: Record<string, StandingEntry[]> = {
     { fifaCode: "QAT", played: 3, won: 0, drawn: 1, lost: 2, goalsFor: 2, goalsAgainst: 10, points: 1 },
   ],
   "C": [
-    { fifaCode: "MAR", played: 2, won: 1, drawn: 1, lost: 0, goalsFor: 2, goalsAgainst: 1, points: 4 },
-    { fifaCode: "BRA", played: 2, won: 1, drawn: 1, lost: 0, goalsFor: 4, goalsAgainst: 1, points: 4 },
-    { fifaCode: "SCO", played: 2, won: 1, drawn: 0, lost: 1, goalsFor: 1, goalsAgainst: 1, points: 3 },
-    { fifaCode: "HAI", played: 2, won: 0, drawn: 0, lost: 2, goalsFor: 0, goalsAgainst: 4, points: 0 },
+    { fifaCode: "BRA", played: 3, won: 2, drawn: 1, lost: 0, goalsFor: 7, goalsAgainst: 2, points: 7 },
+    { fifaCode: "MAR", played: 3, won: 2, drawn: 1, lost: 0, goalsFor: 6, goalsAgainst: 4, points: 7 },
+    { fifaCode: "SCO", played: 3, won: 1, drawn: 0, lost: 2, goalsFor: 1, goalsAgainst: 4, points: 3 },
+    { fifaCode: "HAI", played: 3, won: 0, drawn: 0, lost: 3, goalsFor: 2, goalsAgainst: 8, points: 0 },
   ],
   "D": [
     { fifaCode: "USA", played: 2, won: 2, drawn: 0, lost: 0, goalsFor: 6, goalsAgainst: 1, points: 6 },
