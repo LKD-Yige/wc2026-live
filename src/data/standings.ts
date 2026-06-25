@@ -13,10 +13,10 @@ export interface StandingEntry {
 
 export const standings: Record<string, StandingEntry[]> = {
   "A": [
-    { fifaCode: "MEX", played: 3, won: 3, drawn: 0, lost: 0, goalsFor: 4, goalsAgainst: 0, points: 9 },
-    { fifaCode: "KOR", played: 3, won: 1, drawn: 1, lost: 1, goalsFor: 2, goalsAgainst: 2, points: 4 },
-    { fifaCode: "RSA", played: 3, won: 0, drawn: 2, lost: 1, goalsFor: 1, goalsAgainst: 3, points: 2 },
-    { fifaCode: "CZE", played: 3, won: 0, drawn: 1, lost: 2, goalsFor: 2, goalsAgainst: 4, points: 1 },
+    { fifaCode: "MEX", played: 3, won: 3, drawn: 0, lost: 0, goalsFor: 6, goalsAgainst: 0, points: 9 },
+    { fifaCode: "RSA", played: 3, won: 1, drawn: 1, lost: 1, goalsFor: 2, goalsAgainst: 3, points: 4 },
+    { fifaCode: "KOR", played: 3, won: 1, drawn: 0, lost: 2, goalsFor: 2, goalsAgainst: 3, points: 3 },
+    { fifaCode: "CZE", played: 3, won: 0, drawn: 1, lost: 2, goalsFor: 2, goalsAgainst: 6, points: 1 },
   ],
   "B": [
     { fifaCode: "SUI", played: 3, won: 2, drawn: 1, lost: 0, goalsFor: 7, goalsAgainst: 3, points: 7 },
