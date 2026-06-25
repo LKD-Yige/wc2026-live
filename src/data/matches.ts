@@ -64,8 +64,8 @@ export const todayMatches: Match[] = [
   m("m80", "2026-06-25", "01:00", "Group Stage", "B", "BIH", "QAT", "Seattle", "Lumen Field", "finished", 3, 1),
   m("m81", "2026-06-24", "21:00", "Group Stage", "B", "SUI", "CAN", "Vancouver", "BC Place", "finished", 2, 1),
   // June 24-25 - MD3 matches (Group C)
-  m("m82", "2026-06-25", "18:00", "Group Stage", "C", "MAR", "HAI", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
-  m("m83", "2026-06-25", "18:00", "Group Stage", "C", "SCO", "BRA", "Miami Gardens", "Hard Rock Stadium", "upcoming"),
+  m("m82", "2026-06-25", "18:00", "Group Stage", "C", "MAR", "HAI", "Atlanta", "Mercedes-Benz Stadium", "finished", 4, 2),
+  m("m83", "2026-06-25", "18:00", "Group Stage", "C", "SCO", "BRA", "Miami Gardens", "Hard Rock Stadium", "finished", 0, 3),
 ];
 
 // ========== UPCOMING: June 18 ==========
