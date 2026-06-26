@@ -31,7 +31,7 @@ export const standings: Record<string, StandingEntry[]> = {
     { fifaCode: "HAI", played: 3, won: 0, drawn: 0, lost: 3, goalsFor: 4, goalsAgainst: 12, points: 0 },
   ],
   "D": [
-    { fifaCode: "USA", played: 3, won: 2, drawn: 0, lost: 1, goalsFor: 8, goalsAgainst: 4, points: 6 },
+    { fifaCode: "USA", played: 3, won: 2, drawn: 0, lost: 1, goalsFor: 8, goalsAgainst: 5, points: 6 },
     { fifaCode: "AUS", played: 3, won: 1, drawn: 1, lost: 1, goalsFor: 2, goalsAgainst: 2, points: 4 },
     { fifaCode: "PAR", played: 3, won: 1, drawn: 1, lost: 1, goalsFor: 2, goalsAgainst: 4, points: 4 },
     { fifaCode: "TUR", played: 3, won: 1, drawn: 0, lost: 2, goalsFor: 3, goalsAgainst: 5, points: 3 },
@@ -61,10 +61,10 @@ export const standings: Record<string, StandingEntry[]> = {
     { fifaCode: "KSA", played: 2, won: 0, drawn: 1, lost: 1, goalsFor: 1, goalsAgainst: 4, points: 1 },
   ],
   "I": [
-    { fifaCode: "FRA", played: 2, won: 2, drawn: 0, lost: 0, goalsFor: 6, goalsAgainst: 1, points: 6 },
-    { fifaCode: "NOR", played: 2, won: 2, drawn: 0, lost: 0, goalsFor: 7, goalsAgainst: 3, points: 6 },
-    { fifaCode: "SEN", played: 2, won: 0, drawn: 0, lost: 2, goalsFor: 3, goalsAgainst: 6, points: 0 },
-    { fifaCode: "IRQ", played: 2, won: 0, drawn: 0, lost: 2, goalsFor: 1, goalsAgainst: 7, points: 0 },
+    { fifaCode: "FRA", played: 3, won: 3, drawn: 0, lost: 0, goalsFor: 10, goalsAgainst: 2, points: 9 },
+    { fifaCode: "NOR", played: 3, won: 2, drawn: 0, lost: 1, goalsFor: 8, goalsAgainst: 7, points: 6 },
+    { fifaCode: "SEN", played: 3, won: 1, drawn: 0, lost: 2, goalsFor: 8, goalsAgainst: 9, points: 3 },
+    { fifaCode: "IRQ", played: 3, won: 0, drawn: 0, lost: 3, goalsFor: 1, goalsAgainst: 12, points: 0 },
   ],
   "J": [
     { fifaCode: "ARG", played: 2, won: 2, drawn: 0, lost: 0, goalsFor: 5, goalsAgainst: 0, points: 6 },
