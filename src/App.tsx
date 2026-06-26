@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react";
 import { I18nProvider } from "@/i18n/context";
 import { LiveDataProvider } from "@/components/LiveDataProvider";
 import { Navbar } from "@/components/shared/Navbar";
@@ -45,6 +46,7 @@ export default function App() {
               </main>
               <Footer />
             </div>
+            <Analytics />
           </LiveDataProvider>
         </I18nProvider>
       </BrowserRouter>
