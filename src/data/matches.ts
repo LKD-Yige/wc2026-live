@@ -66,6 +66,10 @@ export const todayMatches: Match[] = [
   // June 24-25 - MD3 matches (Group C)
   m("m82", "2026-06-25", "18:00", "Group Stage", "C", "MAR", "HAI", "Atlanta", "Mercedes-Benz Stadium", "finished", 4, 2),
   m("m83", "2026-06-25", "18:00", "Group Stage", "C", "SCO", "BRA", "Miami Gardens", "Hard Rock Stadium", "finished", 0, 3),
+  // June 27 - Group K & L MD3
+  m("m85", "2026-06-27", "19:30", "Group Stage", "K", "COL", "POR", "Miami", "Hard Rock Stadium", "upcoming"),
+  m("m86", "2026-06-27", "22:00", "Group Stage", "J", "ALG", "AUT", "Kansas City", "Arrowhead Stadium", "upcoming"),
+  m("m87", "2026-06-27", "22:00", "Group Stage", "J", "JOR", "ARG", "Dallas", "AT&T Stadium", "upcoming"),
 ];
 
 // ========== UPCOMING: June 18 ==========
@@ -95,10 +99,10 @@ export const remainingMatches: Match[] = [
   m("m42", "2026-06-23", "23:00", "Group Stage", "J", "JOR", "ALG", "Santa Clara", "Levi's Stadium", "finished", 1, 2),
   m("m43", "2026-06-22", "13:00", "Group Stage", "J", "ARG", "AUT", "Arlington", "AT&T Stadium", "finished", 2, 0),
   // June 23 (Group K & L) - MD2 matches
-  m("m44", "2026-06-27", "20:00", "Group Stage", "K", "COD", "UZB", "Seattle", "Lumen Field", "upcoming"),
-  m("m45", "2026-06-27", "21:00", "Group Stage", "K", "POR", "COL", "Santa Clara", "Levi's Stadium", "upcoming"),
-  m("m46", "2026-06-24", "17:00", "Group Stage", "L", "ENG", "GHA", "Foxborough", "Gillette Stadium", "finished", 0, 0),
-  m("m47", "2026-06-24", "19:00", "Group Stage", "L", "PAN", "CRO", "Toronto", "BMO Field", "finished", 0, 1),
+  m("m44", "2026-06-27", "19:30", "Group Stage", "K", "COD", "UZB", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
+  m("m45", "2026-06-27", "19:30", "Group Stage", "K", "POR", "COL", "Miami", "Hard Rock Stadium", "upcoming"),
+  m("m46", "2026-06-27", "17:00", "Group Stage", "L", "CRO", "GHA", "Philadelphia", "Lincoln Financial Field", "upcoming"),
+  m("m47", "2026-06-27", "17:00", "Group Stage", "L", "PAN", "ENG", "New York", "MetLife Stadium", "upcoming"),
   // MD3: June 27 - July 1
   // June 24-25 - MD3 matches (Group A)
   m("m49", "2026-06-25", "01:00", "Group Stage", "A", "CZE", "MEX", "Mexico City", "Estadio Azteca", "finished", 0, 3),
@@ -119,10 +123,7 @@ export const remainingMatches: Match[] = [
   m("m66", "2026-06-26", "15:00", "Group Stage", "I", "SEN", "IRQ", "Toronto", "BMO Field", "finished", 5, 0),
   m("m67", "2026-06-30", "20:00", "Group Stage", "J", "ARG", "AUT", "Kansas City", "Arrowhead Stadium", "upcoming"),
   m("m68", "2026-06-30", "20:00", "Group Stage", "J", "ALG", "JOR", "Boston", "Gillette Stadium", "upcoming"),
-  m("m69", "2026-06-24", "13:00", "Group Stage", "K", "POR", "UZB", "Houston", "NRG Stadium", "finished", 5, 0),
-  m("m70", "2026-07-01", "16:00", "Group Stage", "K", "COL", "COD", "Seattle", "Lumen Field", "upcoming"),
-  m("m71", "2026-07-01", "20:00", "Group Stage", "L", "ENG", "GHA", "Dallas", "AT&T Stadium", "upcoming"),
-  m("m72", "2026-07-01", "20:00", "Group Stage", "L", "CRO", "PAN", "Vancouver", "BC Place", "upcoming"),
+  m("m69", "2026-06-23", "13:00", "Group Stage", "K", "POR", "COD", "Houston", "NRG Stadium", "finished", 5, 0),
 ];
 
 // Knockout (TBD)
