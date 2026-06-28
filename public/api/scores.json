@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T03:41:03.701Z",
+  "generated": "2026-06-28T21:11:14.792Z",
   "day": 6,
   "matchesCompleted": [
     {
@@ -309,9 +309,7 @@
       "status": "finished",
       "homeScore": 4,
       "awayScore": 2
-    }
-  ],
-  "liveMatches": [
+    },
     {
       "id": "m24",
       "date": "2026-06-18",
@@ -322,93 +320,164 @@
       "awayTeam": "PAN",
       "venue": "BMO Field",
       "city": "Toronto",
-      "status": "live",
-      "homeScore": 0,
+      "status": "finished",
+      "homeScore": 1,
       "awayScore": 0
+    },
+    {
+      "id": "m22",
+      "date": "2026-06-18",
+      "time": "22:00",
+      "stage": "Group Stage",
+      "group": "K",
+      "homeTeam": "COL",
+      "awayTeam": "UZB",
+      "venue": "Levi's Stadium",
+      "city": "Santa Clara",
+      "status": "finished",
+      "homeScore": 3,
+      "awayScore": 1
+    },
+    {
+      "id": "m74",
+      "date": "2026-06-18",
+      "time": "12:00",
+      "stage": "Group Stage",
+      "group": "A",
+      "homeTeam": "CZE",
+      "awayTeam": "RSA",
+      "venue": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": "m75",
+      "date": "2026-06-18",
+      "time": "15:00",
+      "stage": "Group Stage",
+      "group": "B",
+      "homeTeam": "SUI",
+      "awayTeam": "BIH",
+      "venue": "SoFi Stadium",
+      "city": "Los Angeles",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 1
+    },
+    {
+      "id": "m76",
+      "date": "2026-06-18",
+      "time": "18:00",
+      "stage": "Group Stage",
+      "group": "B",
+      "homeTeam": "CAN",
+      "awayTeam": "QAT",
+      "venue": "BC Place",
+      "city": "Vancouver",
+      "status": "finished",
+      "homeScore": 2,
+      "awayScore": 0
+    },
+    {
+      "id": "m77",
+      "date": "2026-06-18",
+      "time": "21:00",
+      "stage": "Group Stage",
+      "group": "A",
+      "homeTeam": "MEX",
+      "awayTeam": "KOR",
+      "venue": "Estadio Akron",
+      "city": "Guadalajara",
+      "status": "finished",
+      "homeScore": 1,
+      "awayScore": 2
     }
   ],
+  "liveMatches": [],
   "standings": {
     "A": [
       {
-        "fifaCode": "MEX",
-        "played": 1,
-        "won": 1,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 0,
-        "points": 3
-      },
-      {
         "fifaCode": "KOR",
-        "played": 1,
-        "won": 1,
+        "played": 2,
+        "won": 2,
         "drawn": 0,
         "lost": 0,
-        "goalsFor": 2,
-        "goalsAgainst": 1,
-        "points": 3
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "points": 6
       },
       {
         "fifaCode": "CZE",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 0,
         "lost": 1,
-        "goalsFor": 1,
+        "goalsFor": 3,
         "goalsAgainst": 2,
-        "points": 0
+        "points": 3
+      },
+      {
+        "fifaCode": "MEX",
+        "played": 2,
+        "won": 1,
+        "drawn": 0,
+        "lost": 1,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "points": 3
       },
       {
         "fifaCode": "RSA",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 0,
-        "lost": 1,
+        "lost": 2,
         "goalsFor": 0,
-        "goalsAgainst": 2,
+        "goalsAgainst": 4,
         "points": 0
       }
     ],
     "B": [
       {
         "fifaCode": "CAN",
-        "played": 1,
-        "won": 0,
+        "played": 2,
+        "won": 1,
         "drawn": 1,
         "lost": 0,
-        "goalsFor": 1,
+        "goalsFor": 3,
         "goalsAgainst": 1,
+        "points": 4
+      },
+      {
+        "fifaCode": "SUI",
+        "played": 2,
+        "won": 1,
+        "drawn": 1,
+        "lost": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 2,
+        "points": 4
+      },
+      {
+        "fifaCode": "BIH",
+        "played": 2,
+        "won": 0,
+        "drawn": 1,
+        "lost": 1,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
         "points": 1
       },
       {
         "fifaCode": "QAT",
-        "played": 1,
+        "played": 2,
         "won": 0,
         "drawn": 1,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 1
-      },
-      {
-        "fifaCode": "SUI",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
-        "points": 1
-      },
-      {
-        "fifaCode": "BIH",
-        "played": 1,
-        "won": 0,
-        "drawn": 1,
-        "lost": 0,
-        "goalsFor": 1,
-        "goalsAgainst": 1,
+        "goalsAgainst": 3,
         "points": 1
       }
     ],
@@ -748,6 +817,48 @@
         "points": 0
       }
     ],
+    "K": [
+      {
+        "fifaCode": "COL",
+        "played": 2,
+        "won": 2,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 6,
+        "goalsAgainst": 2,
+        "points": 6
+      },
+      {
+        "fifaCode": "POR",
+        "played": 2,
+        "won": 0,
+        "drawn": 2,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 2
+      },
+      {
+        "fifaCode": "COD",
+        "played": 2,
+        "won": 0,
+        "drawn": 2,
+        "lost": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "points": 2
+      },
+      {
+        "fifaCode": "UZB",
+        "played": 2,
+        "won": 0,
+        "drawn": 0,
+        "lost": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 6,
+        "points": 0
+      }
+    ],
     "L": [
       {
         "fifaCode": "ENG",
@@ -757,6 +868,16 @@
         "lost": 0,
         "goalsFor": 4,
         "goalsAgainst": 2,
+        "points": 3
+      },
+      {
+        "fifaCode": "GHA",
+        "played": 1,
+        "won": 1,
+        "drawn": 0,
+        "lost": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
         "points": 3
       },
       {
@@ -770,31 +891,21 @@
         "points": 0
       },
       {
-        "fifaCode": "GHA",
-        "played": 0,
-        "won": 0,
-        "drawn": 0,
-        "lost": 0,
-        "goalsFor": 0,
-        "goalsAgainst": 0,
-        "points": 0
-      },
-      {
         "fifaCode": "PAN",
-        "played": 0,
+        "played": 1,
         "won": 0,
         "drawn": 0,
-        "lost": 0,
+        "lost": 1,
         "goalsFor": 0,
-        "goalsAgainst": 0,
+        "goalsAgainst": 1,
         "points": 0
       }
     ]
   },
   "summary": {
-    "totalMatches": 22,
-    "totalGoals": 66,
+    "totalMatches": 29,
+    "totalGoals": 80,
     "groupsActive": 12,
-    "liveMatches": 1
+    "liveMatches": 0
   }
 }

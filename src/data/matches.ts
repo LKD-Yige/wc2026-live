@@ -80,6 +80,12 @@ export const todayMatches: Match[] = [
 export const upcomingJune18: Match[] = [
 ];
 
+// ========== COMPLETED KNOCKOUT MATCHES ==========
+export const completedKnockout: Match[] = [
+  // Round of 32 - June 28 (first knockout match)
+  m("r32-01", "2026-06-28", "15:00", "Round of 32", undefined, "RSA", "CAN", "Inglewood", "SoFi Stadium", "finished", 0, 1),
+];
+
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
 export const remainingMatches: Match[] = [
   // MD2: June 19-26 (FIFA official schedule)
@@ -128,41 +134,47 @@ function ko(id: string, date: string, time: string, stage: Match["stage"], venue
 }
 
 export const knockoutMatches: Match[] = [
-  ko("r32-01", "2026-07-03", "16:00", "Round of 32", 0),
-  ko("r32-02", "2026-07-03", "20:00", "Round of 32", 1),
-  ko("r32-03", "2026-07-04", "12:00", "Round of 32", 2),
-  ko("r32-04", "2026-07-04", "16:00", "Round of 32", 3),
-  ko("r32-05", "2026-07-04", "20:00", "Round of 32", 4),
-  ko("r32-06", "2026-07-05", "12:00", "Round of 32", 5),
-  ko("r32-07", "2026-07-05", "16:00", "Round of 32", 6),
-  ko("r32-08", "2026-07-05", "20:00", "Round of 32", 7),
-  ko("r32-09", "2026-07-06", "12:00", "Round of 32", 8),
-  ko("r32-10", "2026-07-06", "16:00", "Round of 32", 9),
-  ko("r32-11", "2026-07-06", "20:00", "Round of 32", 10),
-  ko("r32-12", "2026-07-07", "12:00", "Round of 32", 11),
-  ko("r32-13", "2026-07-07", "16:00", "Round of 32", 0),
-  ko("r32-14", "2026-07-07", "20:00", "Round of 32", 1),
-  ko("r32-15", "2026-07-08", "16:00", "Round of 32", 2),
-  ko("r32-16", "2026-07-08", "20:00", "Round of 32", 3),
-  ko("r16-01", "2026-07-09", "16:00", "Round of 16", 4),
-  ko("r16-02", "2026-07-09", "20:00", "Round of 16", 5),
-  ko("r16-03", "2026-07-10", "16:00", "Round of 16", 6),
-  ko("r16-04", "2026-07-10", "20:00", "Round of 16", 7),
-  ko("r16-05", "2026-07-11", "12:00", "Round of 16", 8),
-  ko("r16-06", "2026-07-11", "16:00", "Round of 16", 9),
-  ko("r16-07", "2026-07-11", "20:00", "Round of 16", 10),
-  ko("r16-08", "2026-07-12", "16:00", "Round of 16", 11),
-  ko("qf-01", "2026-07-13", "16:00", "Quarter-finals", 0),
-  ko("qf-02", "2026-07-13", "20:00", "Quarter-finals", 1),
-  ko("qf-03", "2026-07-14", "16:00", "Quarter-finals", 2),
-  ko("qf-04", "2026-07-14", "20:00", "Quarter-finals", 3),
-  ko("sf-01", "2026-07-16", "16:00", "Semi-finals", 0),
-  ko("sf-02", "2026-07-17", "16:00", "Semi-finals", 1),
-  ko("tp-01", "2026-07-19", "12:00", "Third Place", 2),
+  // Round of 32 - June 28-July 4, 2026
+  ko("r32-01", "2026-06-28", "15:00", "Round of 32", 1), // Completed: RSA 0-1 CAN
+  ko("r32-02", "2026-06-28", "19:00", "Round of 32", 2),
+  ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3),
+  ko("r32-04", "2026-06-29", "17:00", "Round of 32", 4),
+  ko("r32-05", "2026-06-29", "21:00", "Round of 32", 5),
+  ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6),
+  ko("r32-07", "2026-06-30", "17:00", "Round of 32", 7),
+  ko("r32-08", "2026-06-30", "21:00", "Round of 32", 8),
+  ko("r32-09", "2026-07-01", "13:00", "Round of 32", 9),
+  ko("r32-10", "2026-07-01", "17:00", "Round of 32", 10),
+  ko("r32-11", "2026-07-01", "21:00", "Round of 32", 11),
+  ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
+  ko("r32-13", "2026-07-02", "17:00", "Round of 32", 1),
+  ko("r32-14", "2026-07-02", "21:00", "Round of 32", 2),
+  ko("r32-15", "2026-07-03", "17:00", "Round of 32", 3),
+  ko("r32-16", "2026-07-04", "21:00", "Round of 32", 4),
+  // Round of 16 - July 5-8, 2026
+  ko("r16-01", "2026-07-05", "16:00", "Round of 16", 5),
+  ko("r16-02", "2026-07-05", "20:00", "Round of 16", 6),
+  ko("r16-03", "2026-07-06", "16:00", "Round of 16", 7),
+  ko("r16-04", "2026-07-06", "20:00", "Round of 16", 8),
+  ko("r16-05", "2026-07-07", "16:00", "Round of 16", 9),
+  ko("r16-06", "2026-07-07", "20:00", "Round of 16", 10),
+  ko("r16-07", "2026-07-08", "16:00", "Round of 16", 11),
+  ko("r16-08", "2026-07-08", "20:00", "Round of 16", 0),
+  // Quarter-finals - July 10-11, 2026
+  ko("qf-01", "2026-07-10", "16:00", "Quarter-finals", 1),
+  ko("qf-02", "2026-07-10", "20:00", "Quarter-finals", 2),
+  ko("qf-03", "2026-07-11", "16:00", "Quarter-finals", 3),
+  ko("qf-04", "2026-07-11", "20:00", "Quarter-finals", 4),
+  // Semi-finals - July 14-15, 2026
+  ko("sf-01", "2026-07-14", "16:00", "Semi-finals", 5),
+  ko("sf-02", "2026-07-15", "16:00", "Semi-finals", 6),
+  // Third Place - July 18, 2026
+  ko("tp-01", "2026-07-18", "16:00", "Third Place", 7),
+  // Final - July 19, 2026
   ko("final", "2026-07-19", "16:00", "Final", 0),
 ];
 
-export const allMatches = [...completedMatches, ...todayMatches, ...upcomingJune18, ...remainingMatches, ...knockoutMatches];
+export const allMatches = [...completedMatches, ...todayMatches, ...upcomingJune18, ...remainingMatches, ...completedKnockout, ...knockoutMatches];
 
 export const getMatchesByDate = (date: string): Match[] =>
   allMatches.filter((m) => m.date === date);
