@@ -71,9 +71,9 @@ export const todayMatches: Match[] = [
   m("m45", "2026-06-27", "19:30", "Group Stage", "K", "POR", "COL", "Miami", "Hard Rock Stadium", "finished", 0, 0),
   m("m46", "2026-06-27", "17:00", "Group Stage", "L", "CRO", "GHA", "Philadelphia", "Lincoln Financial Field", "finished", 2, 1),
   m("m47", "2026-06-27", "17:00", "Group Stage", "L", "PAN", "ENG", "New York", "MetLife Stadium", "finished", 0, 2),
-  // June 28 - Group J MD3 (live)
-  m("m85", "2026-06-28", "09:00", "Group Stage", "J", "ALG", "AUT", "Kansas City", "Arrowhead Stadium", "live", 2, 2),
-  m("m86", "2026-06-28", "09:00", "Group Stage", "J", "JOR", "ARG", "Dallas", "AT&T Stadium", "live", 1, 2),
+  // June 28 - Group J MD3 (finished)
+  m("m85", "2026-06-28", "09:00", "Group Stage", "J", "ALG", "AUT", "Kansas City", "Arrowhead Stadium", "finished", 3, 3),
+  m("m86", "2026-06-28", "09:00", "Group Stage", "J", "JOR", "ARG", "Dallas", "AT&T Stadium", "finished", 1, 3),
 ];
 
 // ========== UPCOMING: June 18 ==========
