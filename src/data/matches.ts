@@ -5,9 +5,12 @@ function m(
   id: string, date: string, timeET: string, stage: Match["stage"],
   group: string | undefined, home: string, away: string,
   city: string, venue: string, status: Match["status"],
-  hs?: number, as?: number
+  hs?: number, as?: number, phs?: number, pas?: number
 ): Match {
-  return { id, date, time: timeET, stage, group, homeTeam: home, awayTeam: away, venue, city, status, homeScore: hs, awayScore: as };
+  const match: Match = { id, date, time: timeET, stage, group, homeTeam: home, awayTeam: away, venue, city, status, homeScore: hs, awayScore: as };
+  if (phs !== undefined) match.penaltyHomeScore = phs;
+  if (pas !== undefined) match.penaltyAwayScore = pas;
+  return match;
 }
 
 // ========== COMPLETED MATCHES (June 11-16) ==========
@@ -86,11 +89,12 @@ export const completedKnockout: Match[] = [
   m("r32-01", "2026-06-28", "15:00", "Round of 32", undefined, "RSA", "CAN", "Inglewood", "SoFi Stadium", "finished", 0, 1),
   // Round of 32 - June 29 (second knockout match)
   m("r32-02", "2026-06-29", "13:00", "Round of 32", undefined, "BRA", "JPN", "Houston", "NRG Stadium", "finished", 2, 1),
+  // Round of 32 - June 29 (third knockout match, extra time + penalties)
+  m("r32-04", "2026-06-29", "16:30", "Round of 32", undefined, "GER", "PAR", "Boston", "Gillette Stadium", "finished", 1, 1, 2, 4),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  m("r32-04", "2026-06-29", "16:30", "Round of 32", undefined, "GER", "PAR", "Boston", "Gillette Stadium", "live", 1, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========

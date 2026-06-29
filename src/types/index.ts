@@ -23,6 +23,8 @@ export interface Match {
   awayTeam: string; // fifaCode
   homeScore?: number;
   awayScore?: number;
+  penaltyHomeScore?: number;
+  penaltyAwayScore?: number;
   venue: string;
   city: string;
   status: MatchStatus;
