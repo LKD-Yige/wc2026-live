@@ -84,12 +84,12 @@ export const upcomingJune18: Match[] = [
 export const completedKnockout: Match[] = [
   // Round of 32 - June 28 (first knockout match)
   m("r32-01", "2026-06-28", "15:00", "Round of 32", undefined, "RSA", "CAN", "Inglewood", "SoFi Stadium", "finished", 0, 1),
+  // Round of 32 - June 29 (second knockout match)
+  m("r32-02", "2026-06-29", "13:00", "Round of 32", undefined, "BRA", "JPN", "Houston", "NRG Stadium", "finished", 2, 1),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Round of 32 - June 29 (currently live ~60')
-  m("r32-02", "2026-06-29", "13:00", "Round of 32", undefined, "BRA", "JPN", "Houston", "NRG Stadium", "live", 1, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
