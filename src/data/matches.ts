@@ -90,6 +90,7 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
+  m("r32-04", "2026-06-29", "16:30", "Round of 32", undefined, "GER", "PAR", "Boston", "Gillette Stadium", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -143,7 +144,6 @@ export const knockoutMatches: Match[] = [
   // Round of 32 - June 28-July 4, 2026
   ko("r32-01", "2026-06-28", "15:00", "Round of 32", 1), // Completed: RSA 0-1 CAN
   ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3),
-  ko("r32-04", "2026-06-29", "17:00", "Round of 32", 4),
   ko("r32-05", "2026-06-29", "21:00", "Round of 32", 5),
   ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6),
   ko("r32-07", "2026-06-30", "17:00", "Round of 32", 7),
