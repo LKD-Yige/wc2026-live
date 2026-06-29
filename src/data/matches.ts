@@ -86,6 +86,12 @@ export const completedKnockout: Match[] = [
   m("r32-01", "2026-06-28", "15:00", "Round of 32", undefined, "RSA", "CAN", "Inglewood", "SoFi Stadium", "finished", 0, 1),
 ];
 
+// ========== LIVE KNOCKOUT MATCHES ==========
+export const liveKnockout: Match[] = [
+  // Round of 32 - June 29 (currently live)
+  m("r32-02", "2026-06-29", "13:00", "Round of 32", undefined, "BRA", "JPN", "Houston", "NRG Stadium", "live", 0, 0),
+];
+
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
 export const remainingMatches: Match[] = [
   // MD2: June 19-26 (FIFA official schedule)
@@ -136,7 +142,6 @@ function ko(id: string, date: string, time: string, stage: Match["stage"], venue
 export const knockoutMatches: Match[] = [
   // Round of 32 - June 28-July 4, 2026
   ko("r32-01", "2026-06-28", "15:00", "Round of 32", 1), // Completed: RSA 0-1 CAN
-  ko("r32-02", "2026-06-28", "19:00", "Round of 32", 2),
   ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3),
   ko("r32-04", "2026-06-29", "17:00", "Round of 32", 4),
   ko("r32-05", "2026-06-29", "21:00", "Round of 32", 5),
@@ -174,7 +179,7 @@ export const knockoutMatches: Match[] = [
   ko("final", "2026-07-19", "16:00", "Final", 0),
 ];
 
-export const allMatches = [...completedMatches, ...todayMatches, ...upcomingJune18, ...remainingMatches, ...completedKnockout, ...knockoutMatches];
+export const allMatches = [...completedMatches, ...todayMatches, ...upcomingJune18, ...remainingMatches, ...completedKnockout, ...liveKnockout, ...knockoutMatches];
 
 export const getMatchesByDate = (date: string): Match[] =>
   allMatches.filter((m) => m.date === date);
