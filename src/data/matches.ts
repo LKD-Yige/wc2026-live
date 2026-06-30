@@ -96,8 +96,8 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Round of 32 - June 30 (live at 10')
-  m("r32-05", "2026-06-29", "21:00", "Round of 32", undefined, "NED", "MAR", "Monterrey", "Estadio BBVA", "live", 0, 0),
+  // Round of 32 - June 30 (live at 93' - extra time)
+  m("r32-05", "2026-06-29", "21:00", "Round of 32", undefined, "NED", "MAR", "Monterrey", "Estadio BBVA", "live", 1, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
