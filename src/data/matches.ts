@@ -95,12 +95,14 @@ export const completedKnockout: Match[] = [
   // Round of 32 - June 29 (fourth knockout match, extra time + penalties)
   // Penalty shootout: NED 2-3 MAR (Koopmeiners scored, Kluivert missed, Weghorst scored, Timber missed, Summerville saved; El Aynaoui missed, Rahimi scored, Talbi missed, Hakimi hit post, Saibari scored)
   m("r32-05", "2026-06-29", "21:00", "Round of 32", undefined, "NED", "MAR", "Monterrey", "Estadio BBVA", "finished", 1, 1, 2, 3),
+  // Round of 32 - June 30 (fifth knockout match)
+  // Norway won 2-1: Nusa 39', Diallo 74', Haaland 86'
+  m("r32-06", "2026-06-30", "13:00", "Round of 32", undefined, "CIV", "NOR", "Arlington", "AT&T Stadium", "finished", 1, 2),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Round of 32 - June 30 (currently live)
-  m("r32-06", "2026-06-30", "13:00", "Round of 32", undefined, "CIV", "NOR", "Arlington", "AT&T Stadium", "live", 1, 1),
+  // Currently no live matches (CIV vs NOR finished 1-2, July 1 03:44 GMT+8)
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
