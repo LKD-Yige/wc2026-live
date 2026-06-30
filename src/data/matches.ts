@@ -92,12 +92,13 @@ export const completedKnockout: Match[] = [
   // Round of 32 - June 29 (third knockout match, extra time + penalties)
   // Penalty shootout: GER 3-4 PAR (Havertz saved, Waldtmed over bar, Tah over bar; Canale scored sudden death)
   m("r32-04", "2026-06-29", "16:30", "Round of 32", undefined, "GER", "PAR", "Boston", "Gillette Stadium", "finished", 1, 1, 3, 4),
+  // Round of 32 - June 29 (fourth knockout match, extra time + penalties)
+  // Penalty shootout: NED 2-3 MAR (Koopmeiners scored, Kluivert missed, Weghorst scored, Timber missed, Summerville saved; El Aynaoui missed, Rahimi scored, Talbi missed, Hakimi hit post, Saibari scored)
+  m("r32-05", "2026-06-29", "21:00", "Round of 32", undefined, "NED", "MAR", "Monterrey", "Estadio BBVA", "finished", 1, 1, 2, 3),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Round of 32 - June 30 (live at 93' - extra time)
-  m("r32-05", "2026-06-29", "21:00", "Round of 32", undefined, "NED", "MAR", "Monterrey", "Estadio BBVA", "live", 1, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
