@@ -90,7 +90,8 @@ export const completedKnockout: Match[] = [
   // Round of 32 - June 29 (second knockout match)
   m("r32-02", "2026-06-29", "13:00", "Round of 32", undefined, "BRA", "JPN", "Houston", "NRG Stadium", "finished", 2, 1),
   // Round of 32 - June 29 (third knockout match, extra time + penalties)
-  m("r32-04", "2026-06-29", "16:30", "Round of 32", undefined, "GER", "PAR", "Boston", "Gillette Stadium", "finished", 1, 1, 2, 4),
+  // Penalty shootout: GER 3-4 PAR (Havertz saved, Waldtmed over bar, Tah over bar; Canale scored sudden death)
+  m("r32-04", "2026-06-29", "16:30", "Round of 32", undefined, "GER", "PAR", "Boston", "Gillette Stadium", "finished", 1, 1, 3, 4),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
