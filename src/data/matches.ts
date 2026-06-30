@@ -102,7 +102,8 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Currently no live matches (CIV vs NOR finished 1-2, July 1 03:44 GMT+8)
+  // France vs Sweden - LIVE (0-0, first half in progress as of 05:39 GMT+7 July 1)
+  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -155,9 +156,9 @@ function ko(id: string, date: string, time: string, stage: Match["stage"], venue
 export const knockoutMatches: Match[] = [
   // Round of 32 - June 28-July 4, 2026
   ko("r32-01", "2026-06-28", "15:00", "Round of 32", 1), // Completed: RSA 0-1 CAN
-  ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3),
-  ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6),
-  ko("r32-07", "2026-06-30", "17:00", "Round of 32", 7),
+  ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3), // Completed: BRA 2-1 JPN (actual r32-02)
+  ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6), // Completed: CIV 1-2 NOR (actual r32-06)
+  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "live", 0, 0),
   ko("r32-08", "2026-06-30", "21:00", "Round of 32", 8),
   ko("r32-09", "2026-07-01", "13:00", "Round of 32", 9),
   ko("r32-10", "2026-07-01", "17:00", "Round of 32", 10),
