@@ -102,8 +102,8 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // France vs Sweden - LIVE (0-0, first half in progress as of 05:39 GMT+7 July 1)
-  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "live", 0, 0),
+  // France vs Sweden - LIVE (3-0, 78' as of 06:39 GMT+8 July 1)
+  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "live", 3, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
