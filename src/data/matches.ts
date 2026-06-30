@@ -98,12 +98,15 @@ export const completedKnockout: Match[] = [
   // Round of 32 - June 30 (fifth knockout match)
   // Norway won 2-1: Nusa 39', Diallo 74', Haaland 86'
   m("r32-06", "2026-06-30", "13:00", "Round of 32", undefined, "CIV", "NOR", "Arlington", "AT&T Stadium", "finished", 1, 2),
+  // Round of 32 - June 30 (sixth knockout match, FINAL)
+  // France won 3-0: Barcola 45+1', Mbappé 53', Mbappé 74'
+  // Mbappé now has 6 goals in tournament, tied for Golden Boot lead
+  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "finished", 3, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // France vs Sweden - LIVE (3-0, 78' as of 06:39 GMT+8 July 1)
-  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "live", 3, 0),
+  // No live matches currently. Next match: MEX vs ECU (kickoff: 09:00 GMT+8 July 1)
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -158,7 +161,7 @@ export const knockoutMatches: Match[] = [
   ko("r32-01", "2026-06-28", "15:00", "Round of 32", 1), // Completed: RSA 0-1 CAN
   ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3), // Completed: BRA 2-1 JPN (actual r32-02)
   ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6), // Completed: CIV 1-2 NOR (actual r32-06)
-  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "live", 0, 0),
+  m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "finished", 3, 0),
   ko("r32-08", "2026-06-30", "21:00", "Round of 32", 8),
   ko("r32-09", "2026-07-01", "13:00", "Round of 32", 9),
   ko("r32-10", "2026-07-01", "17:00", "Round of 32", 10),
