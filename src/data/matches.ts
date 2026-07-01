@@ -110,6 +110,8 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
+  // Round of 32 - July 1 (kickoff at 12:00 ET = 00:00 GMT+8 July 2)
+  m("r32-09", "2026-07-01", "12:00", "Round of 32", undefined, "ENG", "COD", "Atlanta", "Mercedes-Benz Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -165,8 +167,8 @@ export const knockoutMatches: Match[] = [
   ko("r32-03", "2026-06-29", "13:00", "Round of 32", 3), // Completed: BRA 2-1 JPN (actual r32-02)
   ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6), // Completed: CIV 1-2 NOR (actual r32-06)
   m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "finished", 3, 0),
-  // r32-08 (MEX vs ECU) moved to liveKnockout - LIVE at 18' (0-0)
-  ko("r32-09", "2026-07-01", "12:00", "Round of 32", 9),
+  // r32-08 (MEX vs ECU) moved to completedKnockout - FT (2-0)
+  // r32-09 (ENG vs COD) moved to liveKnockout - NOW LIVE (0-0)
   ko("r32-10", "2026-07-01", "17:00", "Round of 32", 10),
   ko("r32-11", "2026-07-01", "21:00", "Round of 32", 11),
   ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
