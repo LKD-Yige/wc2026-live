@@ -109,9 +109,10 @@ export const completedKnockout: Match[] = [
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
   // Round of 32 - July 1 (eighth knockout match, LIVE)
-  // Mexico vs Ecuador - Kickoff: 21:00 ET June 30 (= 10:00 GMT+8 July 1)
-  // Currently LIVE at 18' (as of 10:19 GMT+8 July 1), score 0-0
-  m("r32-08", "2026-06-30", "21:00", "Round of 32", undefined, "MEX", "ECU", "Mexico City", "Estadio Banorte", "live", 0, 0),
+  // Mexico vs Ecuador - Kickoff: 22:00 ET June 30 (= 10:00 GMT+8 July 1)
+  // Currently LIVE at 54' (as of 11:20 GMT+8 July 1), score 2-0
+  // Goals: Quiñones 22', Jiménez 31'
+  m("r32-08", "2026-06-30", "22:00", "Round of 32", undefined, "MEX", "ECU", "Mexico City", "Estadio Azteca", "live", 2, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
