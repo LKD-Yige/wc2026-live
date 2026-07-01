@@ -114,8 +114,8 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Belgium vs Senegal (r32-10) - NOW LIVE (16:00 ET July 1 = 04:00 GMT+8 July 2)
-  m("r32-10", "2026-07-01", "16:00", "Round of 32", undefined, "BEL", "SEN", "Seattle", "Lumen Field", "live", 0, 0),
+  // Belgium vs Senegal (r32-10) - LIVE at Half Time (0-1, Diarra 24')
+  m("r32-10", "2026-07-01", "16:00", "Round of 32", undefined, "BEL", "SEN", "Seattle", "Lumen Field", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
