@@ -111,7 +111,8 @@ export const completedKnockout: Match[] = [
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
   // Round of 32 - July 1 (kickoff at 12:00 ET = 00:00 GMT+8 July 2)
-  m("r32-09", "2026-07-01", "12:00", "Round of 32", undefined, "ENG", "COD", "Atlanta", "Mercedes-Benz Stadium", "live", 0, 0),
+  // Current status: LIVE, 45+', DR Congo leading 1-0 (Wissa 42')
+  m("r32-09", "2026-07-01", "12:00", "Round of 32", undefined, "ENG", "COD", "Atlanta", "Mercedes-Benz Stadium", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
