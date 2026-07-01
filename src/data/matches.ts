@@ -110,10 +110,10 @@ export const completedKnockout: Match[] = [
   // England won 2-1: Cipenga 7' (COD), Kane 75', Kane 86'
   // England advances to Round of 16, will play MEX (r32-08 winner)
   m("r32-09", "2026-07-01", "12:00", "Round of 32", undefined, "ENG", "COD", "Atlanta", "Mercedes-Benz Stadium", "finished", 2, 1),
-  // Round of 32 - July 1 (tenth knockout match, FINAL)
-  // Senegal won 2-0: Diarra 24', Sarr 88' (source: ESPN live updates)
-  // Senegal advances to Round of 16, will play winner of r32-11 (USA vs BIH)
-  m("r32-10", "2026-07-01", "16:00", "Round of 32", undefined, "BEL", "SEN", "Seattle", "Lumen Field", "finished", 0, 2),
+  // Round of 32 - July 1 (tenth knockout match, FINAL - after extra time)
+  // Belgium won 3-2 after incredible comeback: Diarra 24', Sarr 52', Lukaku 86', Tielemans 88', Tielemans 120+6' (pen)
+  // Belgium advances to Round of 16, will play winner of r32-11 (USA vs BIH)
+  m("r32-10", "2026-07-01", "16:00", "Round of 32", undefined, "BEL", "SEN", "Seattle", "Lumen Field", "finished", 3, 2),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
@@ -176,7 +176,7 @@ export const knockoutMatches: Match[] = [
   m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "finished", 3, 0),
   // r32-08 (MEX vs ECU) moved to completedKnockout - FT (2-0)
   // r32-09 (ENG vs COD) moved to completedKnockout - FT (2-1)
-  // r32-10 (BEL vs SEN) moved to liveKnockout - NOW LIVE (0-0)
+  // r32-10 (BEL vs SEN) moved to completedKnockout - FT (3-2, after extra time)
   ko("r32-11", "2026-07-01", "21:00", "Round of 32", 11),
   ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
   ko("r32-13", "2026-07-02", "17:00", "Round of 32", 1),
