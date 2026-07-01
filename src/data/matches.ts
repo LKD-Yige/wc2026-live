@@ -102,17 +102,14 @@ export const completedKnockout: Match[] = [
   // France won 3-0: Barcola 45+1', Mbappé 53', Mbappé 74'
   // Mbappé now has 6 goals in tournament, tied for Golden Boot lead
   m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "finished", 3, 0),
-  // Round of 32 - July 1 (eighth knockout match, LIVE)
-  // r32-08 (MEX vs ECU) moved to liveKnockout - currently LIVE at 18', score 0-0
+  // Round of 32 - July 1 (eighth knockout match, FINAL)
+  // Mexico won 2-0: Quiñones 22', Jiménez 31'
+  // Mexico advances to Round of 16, will play winner of r32-09 (ENG vs COD)
+  m("r32-08", "2026-06-30", "22:00", "Round of 32", undefined, "MEX", "ECU", "Mexico City", "Estadio Azteca", "finished", 2, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Round of 32 - July 1 (eighth knockout match, LIVE)
-  // Mexico vs Ecuador - Kickoff: 22:00 ET June 30 (= 10:00 GMT+8 July 1)
-  // Currently LIVE at 54' (as of 11:20 GMT+8 July 1), score 2-0
-  // Goals: Quiñones 22', Jiménez 31'
-  m("r32-08", "2026-06-30", "22:00", "Round of 32", undefined, "MEX", "ECU", "Mexico City", "Estadio Azteca", "live", 2, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
