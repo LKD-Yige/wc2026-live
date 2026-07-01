@@ -166,7 +166,7 @@ export const knockoutMatches: Match[] = [
   ko("r32-06", "2026-06-30", "13:00", "Round of 32", 6), // Completed: CIV 1-2 NOR (actual r32-06)
   m("r32-07", "2026-06-30", "17:00", "Round of 32", undefined, "FRA", "SWE", "New York", "MetLife Stadium", "finished", 3, 0),
   // r32-08 (MEX vs ECU) moved to liveKnockout - LIVE at 18' (0-0)
-  ko("r32-09", "2026-07-01", "13:00", "Round of 32", 9),
+  ko("r32-09", "2026-07-01", "12:00", "Round of 32", 9),
   ko("r32-10", "2026-07-01", "17:00", "Round of 32", 10),
   ko("r32-11", "2026-07-01", "21:00", "Round of 32", 11),
   ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
