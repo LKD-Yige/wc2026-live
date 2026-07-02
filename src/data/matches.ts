@@ -119,12 +119,15 @@ export const completedKnockout: Match[] = [
   // Match was live with USA down to 10 men (Balogun red card 64'), but USA held on
   // USA advances to Round of 16, will play BEL (r32-10 winner)
   m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "finished", 2, 0),
+  // Round of 32 - July 2 (twelfth knockout match, FINAL)
+  // Spain won 1-0: Oyarzabal 36'
+  // Spain advances to Round of 16, will play winner of r32-13 (POR vs CRO)
+  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 1, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Spain vs Austria - Live at 4' (0-0)
-  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "live", 0, 0),
+  // No live matches currently
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -183,10 +186,10 @@ export const knockoutMatches: Match[] = [
   // r32-08 (MEX vs ECU) moved to completedKnockout - FT (2-0)
   // r32-09 (ENG vs COD) moved to completedKnockout - FT (2-1)
   // r32-10 (BEL vs SEN) moved to completedKnockout - FT (3-2, after extra time)
-  // r32-11 (USA vs BIH) moved to completedKnockout - FT (1-0)
-  // Round of 32 - July 2-3
-  // r32-12: ESP vs AUT - now LIVE (tracked in liveKnockout)
-  // ko("r32-12", "2026-07-03", "02:00", "Round of 32", 0),  // Live - ESP 0-0 AUT (4')
+  // r32-11 (USA vs BIH) moved to completedKnockout - FT (2-0)
+  // Round of 32 - July 2 (twelfth match, COMPLETED)
+  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 1, 0),
+  // Round of 32 - July 3
   ko("r32-13", "2026-07-03", "06:00", "Round of 32", 1),
   ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
   ko("r32-15", "2026-07-03", "17:00", "Round of 32", 3),
