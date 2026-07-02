@@ -118,7 +118,9 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // No live matches currently (r32-10 BEL vs SEN completed 0-2 to SEN)
+  // Round of 32 - July 1 (eleventh knockout match, LIVE)
+  // USA leading 1-0 at 45+2' (first half stoppage time)
+  m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "live", 1, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -177,7 +179,6 @@ export const knockoutMatches: Match[] = [
   // r32-08 (MEX vs ECU) moved to completedKnockout - FT (2-0)
   // r32-09 (ENG vs COD) moved to completedKnockout - FT (2-1)
   // r32-10 (BEL vs SEN) moved to completedKnockout - FT (3-2, after extra time)
-  ko("r32-11", "2026-07-01", "21:00", "Round of 32", 11),
   ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
   ko("r32-13", "2026-07-02", "17:00", "Round of 32", 1),
   ko("r32-14", "2026-07-02", "21:00", "Round of 32", 2),
