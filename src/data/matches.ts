@@ -114,13 +114,16 @@ export const completedKnockout: Match[] = [
   // Belgium won 3-2 after incredible comeback: Diarra 24', Sarr 52', Lukaku 86', Tielemans 88', Tielemans 120+6' (pen)
   // Belgium advances to Round of 16, will play winner of r32-11 (USA vs BIH)
   m("r32-10", "2026-07-01", "16:00", "Round of 32", undefined, "BEL", "SEN", "Seattle", "Lumen Field", "finished", 3, 2),
+  // Round of 32 - July 1 (eleventh knockout match, FINAL)
+  // USA won 1-0: Balogun 45'
+  // Match was live with USA down to 10 men (Balogun red card 64'), but USA held on
+  // USA advances to Round of 16, will play BEL (r32-10 winner)
+  m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "finished", 1, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // Round of 32 - July 1 (eleventh knockout match, LIVE)
-  // USA leading 1-0 at 45+2' (first half stoppage time)
-  m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "live", 1, 0),
+  // No live matches currently
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -179,6 +182,7 @@ export const knockoutMatches: Match[] = [
   // r32-08 (MEX vs ECU) moved to completedKnockout - FT (2-0)
   // r32-09 (ENG vs COD) moved to completedKnockout - FT (2-1)
   // r32-10 (BEL vs SEN) moved to completedKnockout - FT (3-2, after extra time)
+  // r32-11 (USA vs BIH) moved to completedKnockout - FT (1-0)
   ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
   ko("r32-13", "2026-07-02", "17:00", "Round of 32", 1),
   ko("r32-14", "2026-07-02", "21:00", "Round of 32", 2),
