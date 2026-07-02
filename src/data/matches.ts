@@ -127,7 +127,10 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // No live matches currently
+  // Round of 32 - July 2 (thirteenth match, LIVE at half-time)
+  // Portugal vs Croatia - LIVE at half-time (0-0)
+  // Match started at 19:00 EDT July 2 at BMO Field (Toronto)
+  m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -189,8 +192,9 @@ export const knockoutMatches: Match[] = [
   // r32-11 (USA vs BIH) moved to completedKnockout - FT (2-0)
   // Round of 32 - July 2 (twelfth match, COMPLETED)
   m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 3, 0),
+  // Round of 32 - July 2 (thirteenth match, LIVE at half-time)
+  // m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "live", 0, 0),
   // Round of 32 - July 3
-  ko("r32-13", "2026-07-03", "06:00", "Round of 32", 1),
   ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
   ko("r32-15", "2026-07-03", "17:00", "Round of 32", 3),
   ko("r32-16", "2026-07-04", "21:00", "Round of 32", 4),
