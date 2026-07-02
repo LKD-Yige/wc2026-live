@@ -120,9 +120,9 @@ export const completedKnockout: Match[] = [
   // USA advances to Round of 16, will play BEL (r32-10 winner)
   m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "finished", 2, 0),
   // Round of 32 - July 2 (twelfth knockout match, FINAL)
-  // Spain won 1-0: Oyarzabal 36'
+  // Spain won 3-0: Oyarzabal 36', Porro 66', Oyarzabal 89'
   // Spain advances to Round of 16, will play winner of r32-13 (POR vs CRO)
-  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 1, 0),
+  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 3, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
@@ -188,7 +188,7 @@ export const knockoutMatches: Match[] = [
   // r32-10 (BEL vs SEN) moved to completedKnockout - FT (3-2, after extra time)
   // r32-11 (USA vs BIH) moved to completedKnockout - FT (2-0)
   // Round of 32 - July 2 (twelfth match, COMPLETED)
-  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 1, 0),
+  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "finished", 3, 0),
   // Round of 32 - July 3
   ko("r32-13", "2026-07-03", "06:00", "Round of 32", 1),
   ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
