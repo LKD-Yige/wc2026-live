@@ -115,10 +115,10 @@ export const completedKnockout: Match[] = [
   // Belgium advances to Round of 16, will play winner of r32-11 (USA vs BIH)
   m("r32-10", "2026-07-01", "16:00", "Round of 32", undefined, "BEL", "SEN", "Seattle", "Lumen Field", "finished", 3, 2),
   // Round of 32 - July 1 (eleventh knockout match, FINAL)
-  // USA won 1-0: Balogun 45'
+  // USA won 2-0: Balogun 45', Tillman 81'
   // Match was live with USA down to 10 men (Balogun red card 64'), but USA held on
   // USA advances to Round of 16, will play BEL (r32-10 winner)
-  m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "finished", 1, 0),
+  m("r32-11", "2026-07-01", "21:00", "Round of 32", undefined, "USA", "BIH", "Santa Clara", "Levi's Stadium", "finished", 2, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
