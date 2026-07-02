@@ -123,7 +123,8 @@ export const completedKnockout: Match[] = [
 
 // ========== LIVE KNOCKOUT MATCHES ==========
 export const liveKnockout: Match[] = [
-  // No live matches currently
+  // Spain vs Austria - Live at 4' (0-0)
+  m("r32-12", "2026-07-03", "02:00", "Round of 32", undefined, "ESP", "AUT", "Inglewood", "SoFi Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -183,9 +184,11 @@ export const knockoutMatches: Match[] = [
   // r32-09 (ENG vs COD) moved to completedKnockout - FT (2-1)
   // r32-10 (BEL vs SEN) moved to completedKnockout - FT (3-2, after extra time)
   // r32-11 (USA vs BIH) moved to completedKnockout - FT (1-0)
-  ko("r32-12", "2026-07-02", "13:00", "Round of 32", 0),
-  ko("r32-13", "2026-07-02", "17:00", "Round of 32", 1),
-  ko("r32-14", "2026-07-02", "21:00", "Round of 32", 2),
+  // Round of 32 - July 2-3
+  // r32-12: ESP vs AUT - now LIVE (tracked in liveKnockout)
+  // ko("r32-12", "2026-07-03", "02:00", "Round of 32", 0),  // Live - ESP 0-0 AUT (4')
+  ko("r32-13", "2026-07-03", "06:00", "Round of 32", 1),
+  ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
   ko("r32-15", "2026-07-03", "17:00", "Round of 32", 3),
   ko("r32-16", "2026-07-04", "21:00", "Round of 32", 4),
   // Round of 16 - July 5-8, 2026
