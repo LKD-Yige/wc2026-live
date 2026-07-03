@@ -127,13 +127,15 @@ export const completedKnockout: Match[] = [
   // Portugal won 2-1: Perisic 53' (CRO 0-1), Ronaldo 68' penalty (1-1), Ramos 90+4' (2-1)
   // Portugal advances to Round of 16, will play ESP (r32-12 winner)
   m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "finished", 2, 1),
+  // Round of 32 - July 3 (fourteenth match, FINAL)
+  // Switzerland won 2-0: Embolo 10', Ndoye 46'
+  // Switzerland advances to Round of 16, will play winner of r32-15
+  m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "finished", 2, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Switzerland vs Algeria (r32-14) - LIVE at 83' (Switzerland 2-0)
-// Goals: Embolo 10', Ndoye 46'
+// No live matches currently
 export const liveKnockout: Match[] = [
-  m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "live", 2, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -199,9 +201,10 @@ export const knockoutMatches: Match[] = [
   // Portugal won 2-1: Perisic 53' (CRO 0-1), Ronaldo 68' penalty (1-1), Ramos 90+4' (2-1)
   // Portugal advances to Round of 16, will play ESP (r32-12 winner)
   m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "finished", 2, 1),
-  // Round of 32 - July 3
-  // Round of 32 - July 3 (FOURTENTH match, LIVE - SUI 1-0 ALG at 41')
-  // ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
+  // Round of 32 - July 3 (fourteenth match, FINISHED)
+  // Switzerland won 2-0: Embolo 10', Ndoye 46'
+  // Switzerland advances to Round of 16, will play winner of r32-15
+  m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "finished", 2, 0),
   ko("r32-15", "2026-07-03", "17:00", "Round of 32", 3),
   ko("r32-16", "2026-07-04", "21:00", "Round of 32", 4),
   // Round of 16 - July 5-8, 2026
