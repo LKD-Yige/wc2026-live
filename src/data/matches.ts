@@ -130,9 +130,10 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Switzerland vs Algeria (r32-14) - LIVE at 41' (Switzerland 1-0)
+// Switzerland vs Algeria (r32-14) - LIVE at 83' (Switzerland 2-0)
+// Goals: Embolo 10', Ndoye 46'
 export const liveKnockout: Match[] = [
-  m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "live", 1, 0),
+  m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "live", 2, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
