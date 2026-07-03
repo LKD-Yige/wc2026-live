@@ -139,8 +139,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches currently (r32-15 finished, r32-16 not started yet)
+// r32-16 (ARG vs CPV) is currently live at 0-0
 export const liveKnockout: Match[] = [
+  m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -215,9 +216,10 @@ export const knockoutMatches: Match[] = [
   // Goals: Ashour 13' (EGY), Hany OG 55' (AUS)
   // Egypt advances to Round of 16
   m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "finished", 1, 1, 2, 4),
-  // Round of 32 - July 3 (sixteenth match, scheduled)
-  // Argentina vs Cape Verde - scheduled 18:00 ET July 3 at Hard Rock Stadium, Miami
-  ko("r32-16", "2026-07-03", "18:00", "Round of 32", 4),
+  // Round of 32 - July 3 (sixteenth match, LIVE)
+  // Argentina vs Cape Verde - LIVE at 27' (0-0)
+  // Scheduled 18:00 ET July 3 (= 06:00 GMT+8 July 4) at Hard Rock Stadium, Miami
+  m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "live", 0, 0),
   // Round of 32 - July 3 (seventeenth match, scheduled)
   // Colombia vs Ghana - scheduled 20:30 ET July 3 at Arrowhead Stadium, Kansas City
   ko("r32-17", "2026-07-03", "20:30", "Round of 32", 5),
