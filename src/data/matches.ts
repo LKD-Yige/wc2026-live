@@ -130,8 +130,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches currently
+// Switzerland vs Algeria (r32-14) - LIVE at 41' (Switzerland 1-0)
 export const liveKnockout: Match[] = [
+  m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "live", 1, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -198,7 +199,8 @@ export const knockoutMatches: Match[] = [
   // Portugal advances to Round of 16, will play ESP (r32-12 winner)
   m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "finished", 2, 1),
   // Round of 32 - July 3
-  ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
+  // Round of 32 - July 3 (FOURTENTH match, LIVE - SUI 1-0 ALG at 41')
+  // ko("r32-14", "2026-07-03", "10:00", "Round of 32", 2),
   ko("r32-15", "2026-07-03", "17:00", "Round of 32", 3),
   ko("r32-16", "2026-07-04", "21:00", "Round of 32", 4),
   // Round of 16 - July 5-8, 2026
