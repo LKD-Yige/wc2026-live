@@ -129,14 +129,18 @@ export const completedKnockout: Match[] = [
   m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "finished", 2, 1),
   // Round of 32 - July 3 (fourteenth match, FINAL)
   // Switzerland won 2-0: Embolo 10', Ndoye 46'
-  // Switzerland advances to Round of 16, will play winner of r32-15
+  // Switzerland advances to Round of 16, will play r32-15 winner (Egypt)
   m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "finished", 2, 0),
+  // Round of 32 - July 3 (fifteenth match, COMPLETED - after penalties)
+  // Australia 1-1 Egypt (FT); Australia 2-4 Egypt (penalties)
+  // Goals: Ashour 13' (EGY), Hany OG 55' (AUS)
+  // Egypt advances to Round of 16
+  m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "finished", 1, 1, 2, 4),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Australia vs Egypt (r32-15) - LIVE at 64' (ET: 1-1, Ashour 13', Hany OG 48')
+// No live matches currently (r32-15 finished, r32-16 not started yet)
 export const liveKnockout: Match[] = [
-  m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "live", 1, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -204,11 +208,13 @@ export const knockoutMatches: Match[] = [
   m("r32-13", "2026-07-03", "06:00", "Round of 32", undefined, "POR", "CRO", "Toronto", "BMO Field", "finished", 2, 1),
   // Round of 32 - July 3 (fourteenth match, FINISHED)
   // Switzerland won 2-0: Embolo 10', Ndoye 46'
-  // Switzerland advances to Round of 16, will play winner of r32-15
+  // Switzerland advances to Round of 16, will play r32-15 winner (Egypt)
   m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "finished", 2, 0),
-  // Round of 32 - July 3 (fifteenth match, LIVE)
-  // Australia vs Egypt - LIVE at 64' (ET: 1-1, Ashour 13', Hany OG 48')
-  m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "live", 1, 1),
+  // Round of 32 - July 3 (fifteenth match, COMPLETED - after penalties)
+  // Australia 1-1 Egypt (FT); Australia 2-4 Egypt (penalties)
+  // Goals: Ashour 13' (EGY), Hany OG 55' (AUS)
+  // Egypt advances to Round of 16
+  m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "finished", 1, 1, 2, 4),
   // Round of 32 - July 3 (sixteenth match, scheduled)
   // Argentina vs Cape Verde - scheduled 18:00 ET July 3 at Hard Rock Stadium, Miami
   ko("r32-16", "2026-07-03", "18:00", "Round of 32", 4),
