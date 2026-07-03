@@ -134,8 +134,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches currently
+// Australia vs Egypt (r32-15) - LIVE at 30' (ET: 1-0, Ashour 13')
 export const liveKnockout: Match[] = [
+  m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -205,9 +206,9 @@ export const knockoutMatches: Match[] = [
   // Switzerland won 2-0: Embolo 10', Ndoye 46'
   // Switzerland advances to Round of 16, will play winner of r32-15
   m("r32-14", "2026-07-03", "23:00", "Round of 32", undefined, "SUI", "ALG", "Vancouver", "BC Place", "finished", 2, 0),
-  // Round of 32 - July 3 (fifteenth match, scheduled)
-  // Australia vs Egypt - scheduled 13:00 ET July 3 at AT&T Stadium, Arlington
-  ko("r32-15", "2026-07-03", "13:00", "Round of 32", 2),
+  // Round of 32 - July 3 (fifteenth match, LIVE)
+  // Australia vs Egypt - LIVE at 30' (ET: 1-0, Ashour 13')
+  m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "live", 0, 1),
   // Round of 32 - July 3 (sixteenth match, scheduled)
   // Argentina vs Cape Verde - scheduled 18:00 ET July 3 at Hard Rock Stadium, Miami
   ko("r32-16", "2026-07-03", "18:00", "Round of 32", 4),
