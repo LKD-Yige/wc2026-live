@@ -145,12 +145,15 @@ export const completedKnockout: Match[] = [
   // Colombia won 1-0: Arias 14'
   // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
   m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
+  // Round of 16 - July 4 (first match, COMPLETED)
+  // Morocco won 3-0: Ounahi 50', Ounahi 82', Rahimi 90+8'
+  // Morocco advances to quarterfinals, will play winner of r16-02 (PAR vs FRA)
+  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "finished", 0, 3),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Canada vs Morocco - Live at 50'+ (0-1, Ounahi 50')
+// No live matches at this time
 export const liveKnockout: Match[] = [
-  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
