@@ -148,8 +148,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches currently
+// Canada vs Morocco - Live at 32' (0-0)
 export const liveKnockout: Match[] = [
+  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -233,8 +234,6 @@ export const knockoutMatches: Match[] = [
   // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
   m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
   // Round of 16 - July 4-7, 2026 (CORRECTED SCHEDULE)
-  // Match 1: Canada vs Morocco - July 4 1:00 PM ET (NRG Stadium, Houston)
-  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "upcoming"),
   // Match 2: Paraguay vs France - July 4 5:00 PM ET (Lincoln Financial Field, Philadelphia)
   m("r16-02", "2026-07-04", "17:00", "Round of 16", undefined, "PAR", "FRA", "Philadelphia", "Lincoln Financial Field", "upcoming"),
   // Match 3: Brazil vs Norway - July 5 4:00 PM ET (MetLife Stadium, East Rutherford)
