@@ -141,12 +141,15 @@ export const completedKnockout: Match[] = [
   // Match was 2-2 at 107' (extra time), final score 3-2 to Argentina
   // Argentina advances to Round of 16
   m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "finished", 3, 2),
+  // Round of 32 - July 3 (seventeenth match, COMPLETED)
+  // Colombia won 1-0: Arias 14'
+  // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
+  m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Currently live: r32-17 (COL vs GHA, 57-75')
+// No live matches currently
 export const liveKnockout: Match[] = [
-  m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "live", 2, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -225,9 +228,10 @@ export const knockoutMatches: Match[] = [
   // Argentina won 3-2 after extra time
   // Argentina advances to Round of 16
   m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "finished", 3, 2),
-  // Round of 32 - July 4 (seventeenth match, LIVE)
-  // Colombia vs Ghana - LIVE at 57-75' (Colombia leading 2-0, J. Arias 14', L. Diaz 56')
-  m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "live", 2, 0),
+  // Round of 32 - July 4 (seventeenth match, COMPLETED)
+  // Colombia won 1-0: Arias 14'
+  // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
+  m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
   // Round of 16 - July 5-8, 2026
   ko("r16-01", "2026-07-05", "16:00", "Round of 16", 5),
   ko("r16-02", "2026-07-05", "20:00", "Round of 16", 6),
