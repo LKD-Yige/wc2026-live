@@ -148,9 +148,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Canada vs Morocco - Live at 32' (0-0)
+// Canada vs Morocco - Live at 50'+ (0-1, Ounahi 50')
 export const liveKnockout: Match[] = [
-  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "live", 0, 0),
+  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
