@@ -136,13 +136,16 @@ export const completedKnockout: Match[] = [
   // Goals: Ashour 13' (EGY), Hany OG 55' (AUS)
   // Egypt advances to Round of 16
   m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "finished", 1, 1, 2, 4),
+  // Round of 32 - July 3 (sixteenth match, COMPLETED - after extra time)
+  // Argentina 3-2 Cape Verde (ET)
+  // Match was 2-2 at 107' (extra time), final score 3-2 to Argentina
+  // Argentina advances to Round of 16
+  m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "finished", 3, 2),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// r32-16 (ARG vs CPV) is currently in extra time at 2-2 (107')
-// Goals: Messi 29', ??? 91'? (ARG 2nd goal), Duarte 59', ??? 103'? (CPV 2nd goal)
+// Currently no live matches
 export const liveKnockout: Match[] = [
-  m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "live", 2, 2),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -217,12 +220,11 @@ export const knockoutMatches: Match[] = [
   // Goals: Ashour 13' (EGY), Hany OG 55' (AUS)
   // Egypt advances to Round of 16
   m("r32-15", "2026-07-03", "13:00", "Round of 32", undefined, "AUS", "EGY", "Arlington", "AT&T Stadium", "finished", 1, 1, 2, 4),
-  // Round of 32 - July 3 (sixteenth match, LIVE in extra time)
-  // Argentina vs Cape Verde - EXTRA TIME at 107' (2-2)
-  // Goals: Messi 29', ??? (ARG 2nd), Duarte 59', ??? (CPV 2nd)
-  // Scheduled 18:00 ET July 3 (= 06:00 GMT+8 July 4) at Hard Rock Stadium, Miami
-  m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "live", 2, 2),
-  // Round of 32 - July 3 (seventeenth match, scheduled)
+  // Round of 32 - July 3 (sixteenth match, FINISHED - after extra time)
+  // Argentina won 3-2 after extra time
+  // Argentina advances to Round of 16
+  m("r32-16", "2026-07-03", "18:00", "Round of 32", undefined, "ARG", "CPV", "Miami", "Hard Rock Stadium", "finished", 3, 2),
+  // Round of 32 - July 4 (seventeenth match, scheduled)
   // Colombia vs Ghana - scheduled 20:30 ET July 3 at Arrowhead Stadium, Kansas City
   ko("r32-17", "2026-07-03", "20:30", "Round of 32", 5),
   // Round of 16 - July 5-8, 2026
