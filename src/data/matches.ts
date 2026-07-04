@@ -232,15 +232,23 @@ export const knockoutMatches: Match[] = [
   // Colombia won 1-0: Arias 14'
   // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
   m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
-  // Round of 16 - July 5-8, 2026
-  ko("r16-01", "2026-07-05", "16:00", "Round of 16", 5),
-  ko("r16-02", "2026-07-05", "20:00", "Round of 16", 6),
-  ko("r16-03", "2026-07-06", "16:00", "Round of 16", 7),
-  ko("r16-04", "2026-07-06", "20:00", "Round of 16", 8),
-  ko("r16-05", "2026-07-07", "16:00", "Round of 16", 9),
-  ko("r16-06", "2026-07-07", "20:00", "Round of 16", 10),
-  ko("r16-07", "2026-07-08", "16:00", "Round of 16", 11),
-  ko("r16-08", "2026-07-08", "20:00", "Round of 16", 0),
+  // Round of 16 - July 4-7, 2026 (CORRECTED SCHEDULE)
+  // Match 1: Canada vs Morocco - July 4 1:00 PM ET (NRG Stadium, Houston)
+  m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "upcoming"),
+  // Match 2: Paraguay vs France - July 4 5:00 PM ET (Lincoln Financial Field, Philadelphia)
+  m("r16-02", "2026-07-04", "17:00", "Round of 16", undefined, "PAR", "FRA", "Philadelphia", "Lincoln Financial Field", "upcoming"),
+  // Match 3: Brazil vs Norway - July 5 4:00 PM ET (MetLife Stadium, East Rutherford)
+  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "upcoming"),
+  // Match 4: Mexico vs England - July 5 8:00 PM ET (Estadio Azteca, Mexico City)
+  m("r16-04", "2026-07-05", "20:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "upcoming"),
+  // Match 5: Portugal vs Spain - July 6 3:00 PM ET (AT&T Stadium, Arlington)
+  m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Dallas", "AT&T Stadium", "upcoming"),
+  // Match 6: USA vs Belgium - July 6 8:00 PM ET (Lumen Field, Seattle)
+  m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "upcoming"),
+  // Match 7: Switzerland vs Egypt - July 7 12:00 PM ET (Mercedes-Benz Stadium, Atlanta)
+  m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "SUI", "EGY", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
+  // Match 8: Argentina vs Colombia - July 7 4:00 PM ET (BC Place, Vancouver)
+  m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "ARG", "COL", "Vancouver", "BC Place", "upcoming"),
   // Quarter-finals - July 10-11, 2026
   ko("qf-01", "2026-07-10", "16:00", "Quarter-finals", 1),
   ko("qf-02", "2026-07-10", "20:00", "Quarter-finals", 2),
