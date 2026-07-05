@@ -149,6 +149,10 @@ export const completedKnockout: Match[] = [
   // Morocco won 3-0: Ounahi 50', Ounahi 82', Rahimi 90+8'
   // Morocco advances to quarterfinals, will play winner of r16-02 (PAR vs FRA)
   m("r16-01", "2026-07-04", "13:00", "Round of 16", undefined, "CAN", "MAR", "Houston", "NRG Stadium", "finished", 0, 3),
+  // Round of 16 - July 4 (second match, COMPLETED)
+  // France won 1-0: Mbappé 70' (penalty)
+  // France advances to quarterfinals, will play Morocco (r16-01 winner)
+  m("r16-02", "2026-07-04", "17:00", "Round of 16", undefined, "PAR", "FRA", "Philadelphia", "Lincoln Financial Field", "finished", 0, 1),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
@@ -237,8 +241,7 @@ export const knockoutMatches: Match[] = [
   // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
   m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
   // Round of 16 - July 4-7, 2026 (CORRECTED SCHEDULE)
-  // Match 2: Paraguay vs France - July 4 5:00 PM ET (Lincoln Financial Field, Philadelphia)
-  m("r16-02", "2026-07-04", "17:00", "Round of 16", undefined, "PAR", "FRA", "Philadelphia", "Lincoln Financial Field", "upcoming"),
+  // Match 2: Paraguay vs France - FINISHED (July 4 - France won 1-0)
   // Match 3: Brazil vs Norway - July 5 4:00 PM ET (MetLife Stadium, East Rutherford)
   m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "upcoming"),
   // Match 4: Mexico vs England - July 5 8:00 PM ET (Estadio Azteca, Mexico City)
