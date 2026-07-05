@@ -156,8 +156,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches at this time
+// Brazil vs Norway - Round of 16 - LIVE (87', Norway leading 1-0)
 export const liveKnockout: Match[] = [
+  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "live", 0, 1),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -242,8 +243,8 @@ export const knockoutMatches: Match[] = [
   m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
   // Round of 16 - July 4-7, 2026 (CORRECTED SCHEDULE)
   // Match 2: Paraguay vs France - FINISHED (July 4 - France won 1-0)
-  // Match 3: Brazil vs Norway - July 5 4:00 PM ET (MetLife Stadium, East Rutherford)
-  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "upcoming"),
+  // Match 3: Brazil vs Norway - July 5 4:00 PM ET (MetLife Stadium, East Rutherford) - LIVE
+  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "live", 0, 1),
   // Match 4: Mexico vs England - July 5 8:00 PM ET (Estadio Azteca, Mexico City)
   m("r16-04", "2026-07-05", "20:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "upcoming"),
   // Match 5: Portugal vs Spain - July 6 3:00 PM ET (AT&T Stadium, Arlington)
