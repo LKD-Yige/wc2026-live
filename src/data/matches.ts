@@ -160,8 +160,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches at this time
+// Mexico vs England - Live at 60' (data as of fetch time)
 export const liveKnockout: Match[] = [
+  m("r16-04", "2026-07-05", "21:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "live", 1, 2),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -245,11 +246,10 @@ export const knockoutMatches: Match[] = [
   // Colombia advances to Round of 16, will play Switzerland (r32-14 winner)
   m("r32-17", "2026-07-03", "20:30", "Round of 32", undefined, "COL", "GHA", "Kansas City", "Arrowhead Stadium", "finished", 1, 0),
   // Round of 16 - July 4-7, 2026 (CORRECTED SCHEDULE)
-  // Match 2: Paraguay vs France - FINISHED (July 4 - France won 1-0)
-  // Match 3: Brazil vs Norway - July 5 4:00 PM ET (MetLife Stadium, East Rutherford) - FINISHED (Norway won 2-1)
-  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "finished", 1, 2),
-  // Match 4: Mexico vs England - July 5 9:00 PM ET (Estadio Azteca, Mexico City) - DELAYED 1 hour due to weather
-  m("r16-04", "2026-07-05", "21:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "upcoming"),
+  // Match 1: Canada vs Morocco - July 4 - FINISHED (Morocco won 3-0)
+  // Match 2: Paraguay vs France - July 4 - FINISHED (France won 1-0)
+  // Match 3: Brazil vs Norway - July 5 - FINISHED (Norway won 2-1)
+  // Match 4: Mexico vs England - July 5 9:00 PM ET - LIVE (moved to liveKnockout)
   // Match 5: Portugal vs Spain - July 6 3:00 PM ET (AT&T Stadium, Arlington)
   m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Dallas", "AT&T Stadium", "upcoming"),
   // Match 6: USA vs Belgium - July 6 8:00 PM ET (Lumen Field, Seattle)
