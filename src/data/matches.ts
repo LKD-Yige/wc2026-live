@@ -153,16 +153,15 @@ export const completedKnockout: Match[] = [
   // France won 1-0: Mbappé 70' (penalty)
   // France advances to quarterfinals, will play Morocco (r16-01 winner)
   m("r16-02", "2026-07-04", "17:00", "Round of 16", undefined, "PAR", "FRA", "Philadelphia", "Lincoln Financial Field", "finished", 0, 1),
-  // Round of 16 - July5 (third match, COMPLETED)
-  // Norway won 2-1: Haaland 79', Haaland 90'; Neymar pen 90+10' (consolation)
-  // Norway advances to quarterfinals, will play winner of r16-04 (Mexico vs England)
-  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "New York", "MetLife Stadium", "finished", 1, 2),
+  // Round of 16 - July5 (fourth match, COMPLETED)
+  // England won 3-2: Bellingham 36', Bellingham 38', Quiñones 42', Kane 60' (pen), Jiménez 90+13' (pen)
+  // England played with 10 men after Quansah red card 54'
+  m("r16-04", "2026-07-05", "21:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "finished", 2, 3),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Mexico vs England - Live at 60' (data as of fetch time)
+// Currently no live matches
 export const liveKnockout: Match[] = [
-  m("r16-04", "2026-07-05", "21:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "live", 1, 2),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
