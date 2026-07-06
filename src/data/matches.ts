@@ -157,16 +157,20 @@ export const completedKnockout: Match[] = [
   // Norway won 2-1: Nusa 39', Diallo 74', Haaland 86'
   // Norway advances to quarterfinals
   m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "East Rutherford", "MetLife Stadium", "finished", 1, 2),
-  // Round of 16 - July5 (fourth match, COMPLETED)
+  // Round of 16 - July 5 (fourth match, COMPLETED)
   // England won 3-2: Bellingham 36', Bellingham 38', Quiñones 42', Kane 60' (pen), Jiménez 90+13' (pen)
   // England played with 10 men after Quansah red card 54'
   m("r16-04", "2026-07-05", "21:00", "Round of 16", undefined, "MEX", "ENG", "Mexico City", "Estadio Azteca", "finished", 2, 3),
+  // Round of 16 - July 6 (fifth match, COMPLETED)
+  // Spain won 1-0: Merino 90+1'
+  // Cristiano Ronaldo's World Cup career ends as Spain beat Portugal
+  // Spain advances to quarterfinals
+  m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Arlington", "AT&T Stadium", "finished", 0, 1),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Portugal vs Spain - LIVE at 26' (0-0 as of 03:25 GMT+8)
+// No live matches at this time
 export const liveKnockout: Match[] = [
-  m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Arlington", "AT&T Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
