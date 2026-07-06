@@ -153,6 +153,10 @@ export const completedKnockout: Match[] = [
   // France won 1-0: Mbappé 70' (penalty)
   // France advances to quarterfinals, will play Morocco (r16-01 winner)
   m("r16-02", "2026-07-04", "17:00", "Round of 16", undefined, "PAR", "FRA", "Philadelphia", "Lincoln Financial Field", "finished", 0, 1),
+  // Round of 16 - July 5 (third match, COMPLETED)
+  // Norway won 2-1: Nusa 39', Diallo 74', Haaland 86'
+  // Norway advances to quarterfinals
+  m("r16-03", "2026-07-05", "16:00", "Round of 16", undefined, "BRA", "NOR", "East Rutherford", "MetLife Stadium", "finished", 1, 2),
   // Round of 16 - July5 (fourth match, COMPLETED)
   // England won 3-2: Bellingham 36', Bellingham 38', Quiñones 42', Kane 60' (pen), Jiménez 90+13' (pen)
   // England played with 10 men after Quansah red card 54'
