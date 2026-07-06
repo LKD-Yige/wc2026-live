@@ -164,8 +164,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// Currently no live matches
+// Portugal vs Spain - LIVE at 26' (0-0 as of 03:25 GMT+8)
 export const liveKnockout: Match[] = [
+  m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Arlington", "AT&T Stadium", "live", 0, 0),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -252,9 +253,8 @@ export const knockoutMatches: Match[] = [
   // Match 1: Canada vs Morocco - July 4 - FINISHED (Morocco won 3-0)
   // Match 2: Paraguay vs France - July 4 - FINISHED (France won 1-0)
   // Match 3: Brazil vs Norway - July 5 - FINISHED (Norway won 2-1)
-  // Match 4: Mexico vs England - July 5 9:00 PM ET - LIVE (moved to liveKnockout)
-  // Match 5: Portugal vs Spain - July 6 3:00 PM ET (AT&T Stadium, Arlington)
-  m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Dallas", "AT&T Stadium", "upcoming"),
+  // Match 4: Mexico vs England - July 5 - FINISHED (England won 3-2)
+  // Match 5: Portugal vs Spain - July 6 3:00 PM ET - LIVE (moved to liveKnockout at 03:25 GMT+8 July 7)
   // Match 6: USA vs Belgium - July 6 8:00 PM ET (Lumen Field, Seattle)
   m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "upcoming"),
   // Match 7: Switzerland vs Egypt - July 7 12:00 PM ET (Mercedes-Benz Stadium, Atlanta)
