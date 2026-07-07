@@ -266,8 +266,8 @@ export const knockoutMatches: Match[] = [
   // m("r16-05", ...) - see completedKnockout array
   // Match 6: USA vs Belgium - July 6 - FINISHED (Belgium won 4-1)
   // m("r16-06", ...) - see completedKnockout array
-  // Match 7: Argentina vs Egypt - July 7 12:00 ET (Mercedes-Benz Stadium, Atlanta) - LIVE
-  m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "ARG", "EGY", "Atlanta", "Mercedes-Benz Stadium", "live", 0, 1),
+  // Match 7: Argentina vs Egypt - July 7 12:00 ET (Mercedes-Benz Stadium, Atlanta) - LIVE (75th minute, EGY 2-0)
+  m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "ARG", "EGY", "Atlanta", "Mercedes-Benz Stadium", "live", 0, 2),
   // Match 8: Switzerland vs Colombia - July 7 16:00 ET (BC Place, Vancouver)
   m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "upcoming"),
   // Quarter-finals - July 10-11, 2026
