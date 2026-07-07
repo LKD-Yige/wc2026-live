@@ -166,12 +166,15 @@ export const completedKnockout: Match[] = [
   // Cristiano Ronaldo's World Cup career ends as Spain beat Portugal
   // Spain advances to quarterfinals
   m("r16-05", "2026-07-06", "15:00", "Round of 16", undefined, "POR", "ESP", "Arlington", "AT&T Stadium", "finished", 0, 1),
+  // Round of 16 - July 6 (sixth match, COMPLETED)
+  // Belgium won 4-1: De Ketelaere 9', Tillman 31', De Ketelaere 33', Vanaken 57', Lukaku 90+3'
+  // USA eliminated, Belgium advances to quarterfinals
+  m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "finished", 1, 4),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// USA vs Belgium - LIVE at 45+5' (July 7, 08:00 GMT+8 kickoff)
+// No live matches currently
 export const liveKnockout: Match[] = [
-  m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "live", 1, 2),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -259,10 +262,10 @@ export const knockoutMatches: Match[] = [
   // Match 2: Paraguay vs France - July 4 - FINISHED (France won 1-0)
   // Match 3: Brazil vs Norway - July 5 - FINISHED (Norway won 2-1)
   // Match 4: Mexico vs England - July 5 - FINISHED (England won 3-2)
-  // Match 5: Portugal vs Spain - July 6 3:00 PM ET - LIVE (moved to liveKnockout at 03:25 GMT+8 July 7)
-  // Match 6: USA vs Belgium - July 6 8:00 PM ET - LIVE (moved to liveKnockout)
-  // Current score: USA 1-2 BEL (45+5')
-  // m("r16-06", ...) - see liveKnockout array
+  // Match 5: Portugal vs Spain - July 6 - FINISHED (Spain won 1-0)
+  // m("r16-05", ...) - see completedKnockout array
+  // Match 6: USA vs Belgium - July 6 - FINISHED (Belgium won 4-1)
+  // m("r16-06", ...) - see completedKnockout array
   // Match 7: Switzerland vs Egypt - July 7 12:00 PM ET (Mercedes-Benz Stadium, Atlanta)
   m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "SUI", "EGY", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
   // Match 8: Argentina vs Colombia - July 7 4:00 PM ET (BC Place, Vancouver)
