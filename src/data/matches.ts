@@ -170,6 +170,12 @@ export const completedKnockout: Match[] = [
   // Belgium won 4-1: De Ketelaere 9', Tillman 31', De Ketelaere 33', Vanaken 57', Lukaku 90+3'
   // USA eliminated, Belgium advances to quarterfinals
   m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "finished", 1, 4),
+  // Round of 16 - July 7 (seventh match, COMPLETED - INCREDIBLE COMEBACK)
+  // Argentina won 3-2 after being down 0-2 until 79th minute
+  // Egypt goals: Yasser Ibrahim 15', Mostafa Zico 67'
+  // Argentina goals: Cristian Romero 79', Lionel Messi 83', Enzo Fernández 90+2'
+  // Argentina advances to quarterfinals
+  m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "ARG", "EGY", "Atlanta", "Mercedes-Benz Stadium", "finished", 3, 2),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
@@ -266,8 +272,6 @@ export const knockoutMatches: Match[] = [
   // m("r16-05", ...) - see completedKnockout array
   // Match 6: USA vs Belgium - July 6 - FINISHED (Belgium won 4-1)
   // m("r16-06", ...) - see completedKnockout array
-  // Match 7: Argentina vs Egypt - July 7 12:00 ET (Mercedes-Benz Stadium, Atlanta) - LIVE (75th minute, EGY 2-0)
-  m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "ARG", "EGY", "Atlanta", "Mercedes-Benz Stadium", "live", 0, 2),
   // Match 8: Switzerland vs Colombia - July 7 16:00 ET (BC Place, Vancouver)
   m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "upcoming"),
   // Quarter-finals - July 10-11, 2026
