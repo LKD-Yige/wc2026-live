@@ -176,6 +176,11 @@ export const completedKnockout: Match[] = [
   // Argentina goals: Cristian Romero 79', Lionel Messi 83', Enzo Fernández 90+2'
   // Argentina advances to quarterfinals
   m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "ARG", "EGY", "Atlanta", "Mercedes-Benz Stadium", "finished", 3, 2),
+  // Round of 16 - July 7 (eighth match, COMPLETED - after penalties)
+  // Switzerland won 4-3 on penalties after 0-0 draw
+  // Ruben Vargas scored the decisive penalty
+  // Switzerland advances to quarterfinals to play Argentina (r16-07 winner)
+  m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "finished", 0, 0, 4, 3),
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
@@ -272,10 +277,13 @@ export const knockoutMatches: Match[] = [
   // m("r16-05", ...) - see completedKnockout array
   // Match 6: USA vs Belgium - July 6 - FINISHED (Belgium won 4-1)
   // m("r16-06", ...) - see completedKnockout array
-  // Match 8: Switzerland vs Colombia - July 7 16:00 ET (BC Place, Vancouver) - LIVE
-  m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "live"),
+  // Match 8: Switzerland vs Colombia - July 7 - FINISHED (after penalties)
+  // Switzerland won 4-3 on penalties after 0-0 draw
+  // Switzerland advances to quarterfinals to play Argentina
+  m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "finished", 0, 0, 4, 3),
   // Quarter-finals - July 10-11, 2026
-  ko("qf-01", "2026-07-10", "16:00", "Quarter-finals", 1),
+  // QF1: Argentina vs Switzerland - July 10 (MetLife Stadium, New York)
+  m("qf-01", "2026-07-10", "16:00", "Quarter-finals", undefined, "ARG", "SUI", "New York", "MetLife Stadium", "upcoming"),
   ko("qf-02", "2026-07-10", "20:00", "Quarter-finals", 2),
   ko("qf-03", "2026-07-11", "16:00", "Quarter-finals", 3),
   ko("qf-04", "2026-07-11", "20:00", "Quarter-finals", 4),
