@@ -169,8 +169,9 @@ export const completedKnockout: Match[] = [
 ];
 
 // ========== LIVE KNOCKOUT MATCHES ==========
-// No live matches at this time
+// USA vs Belgium - LIVE at 45+5' (July 7, 08:00 GMT+8 kickoff)
 export const liveKnockout: Match[] = [
+  m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "live", 1, 2),
 ];
 
 // ========== REMAINING SCHEDULE (MD2 + MD3 placeholder) ==========
@@ -259,8 +260,9 @@ export const knockoutMatches: Match[] = [
   // Match 3: Brazil vs Norway - July 5 - FINISHED (Norway won 2-1)
   // Match 4: Mexico vs England - July 5 - FINISHED (England won 3-2)
   // Match 5: Portugal vs Spain - July 6 3:00 PM ET - LIVE (moved to liveKnockout at 03:25 GMT+8 July 7)
-  // Match 6: USA vs Belgium - July 6 8:00 PM ET (Lumen Field, Seattle)
-  m("r16-06", "2026-07-06", "20:00", "Round of 16", undefined, "USA", "BEL", "Seattle", "Lumen Field", "upcoming"),
+  // Match 6: USA vs Belgium - July 6 8:00 PM ET - LIVE (moved to liveKnockout)
+  // Current score: USA 1-2 BEL (45+5')
+  // m("r16-06", ...) - see liveKnockout array
   // Match 7: Switzerland vs Egypt - July 7 12:00 PM ET (Mercedes-Benz Stadium, Atlanta)
   m("r16-07", "2026-07-07", "12:00", "Round of 16", undefined, "SUI", "EGY", "Atlanta", "Mercedes-Benz Stadium", "upcoming"),
   // Match 8: Argentina vs Colombia - July 7 4:00 PM ET (BC Place, Vancouver)
