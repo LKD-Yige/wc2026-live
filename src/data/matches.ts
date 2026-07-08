@@ -282,12 +282,12 @@ export const knockoutMatches: Match[] = [
   // Switzerland advances to quarterfinals to play Argentina
   m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "finished", 0, 0, 4, 3),
   // Quarter-finals - July 9-11, 2026 (CORRECTED SCHEDULE)
-  // QF1: Morocco vs France - July 9 (winners of r16-01 and r16-02)
-  m("qf-01", "2026-07-09", "16:00", "Quarter-finals", undefined, "MAR", "FRA", "Foxborough", "Gillette Stadium", "upcoming"),
-  // QF2: Norway vs England - July 10 (winners of r16-03 and r16-04)
-  m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "NOR", "ENG", "Inglewood", "SoFi Stadium", "upcoming"),
-  // QF3: Spain vs Belgium - July 11 (winners of r16-05 and r16-06)
-  m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "ESP", "BEL", "Miami", "Hard Rock Stadium", "upcoming"),
+  // QF1: France vs Morocco - July 9 (winners of r16-01 and r16-02)
+  m("qf-01", "2026-07-09", "16:00", "Quarter-finals", undefined, "FRA", "MAR", "Foxborough", "Gillette Stadium", "upcoming"),
+  // QF2: Spain vs Belgium - July 10 (winners of r16-05 and r16-06)
+  m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "upcoming"),
+  // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04)
+  m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "upcoming"),
   // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08)
   m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "upcoming"),
   // Semi-finals - July 14-15, 2026
