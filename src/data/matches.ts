@@ -282,9 +282,10 @@ export const knockoutMatches: Match[] = [
   // Switzerland advances to quarterfinals to play Argentina
   m("r16-08", "2026-07-07", "16:00", "Round of 16", undefined, "SUI", "COL", "Vancouver", "BC Place", "finished", 0, 0, 4, 3),
   // Quarter-finals - July 9-11, 2026 (CORRECTED SCHEDULE)
-  // QF1: France vs Morocco - July 9 (winners of r16-01 and r16-02)
-  // LIVE @ 67' — France 2-0 Morocco (Mbappé 59', Dembélé 65'); Bounou saved Mbappé pen in 1H
-  m("qf-01", "2026-07-09", "16:00", "Quarter-finals", undefined, "FRA", "MAR", "Foxborough", "Gillette Stadium", "live", 2, 0),
+  // QF1: France vs Morocco - July 9 (winners of r16-01 and r16-02) - FINISHED
+  // France won 2-0 (Mbappé 59', Dembélé 65'); Bounou saved Mbappé pen in 1H
+  // France advances to semi-finals, will play winner of QF2 (Spain vs Belgium)
+  m("qf-01", "2026-07-09", "16:00", "Quarter-finals", undefined, "FRA", "MAR", "Foxborough", "Gillette Stadium", "finished", 2, 0),
   // QF2: Spain vs Belgium - July 10 (winners of r16-05 and r16-06)
   m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "upcoming"),
   // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04)
