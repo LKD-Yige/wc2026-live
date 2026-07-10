@@ -286,8 +286,8 @@ export const knockoutMatches: Match[] = [
   // France won 2-0 (Mbappé 59', Dembélé 65'); Bounou saved Mbappé pen in 1H
   // France advances to semi-finals, will play winner of QF2 (Spain vs Belgium)
   m("qf-01", "2026-07-09", "16:00", "Quarter-finals", undefined, "FRA", "MAR", "Foxborough", "Gillette Stadium", "finished", 2, 0),
-  // QF2: Spain vs Belgium - July 10 (winners of r16-05 and r16-06) - LIVE (kicked off July 11 03:00 GMT+8; 1st half, 0-0)
-  m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "live", 0, 0),
+  // QF2: Spain vs Belgium - July 10 (winners of r16-05 and r16-06) - LIVE (kicked off July 11 03:00 GMT+8; HT 1-1: Fabian Ruiz 30', De Ketelaere 41')
+  m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "live", 1, 1),
   // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04)
   m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "upcoming"),
   // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08)
