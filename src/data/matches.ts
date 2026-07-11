@@ -291,7 +291,7 @@ export const knockoutMatches: Match[] = [
   // Spain advances to semi-finals, will play France (QF1 winner)
   m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "finished", 2, 1),
   // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04)
-  // LIVE: HT 1-1 (kickoff 17:00 ET / 05:00 Beijing Jul 12). Goals: Schjelderup 36' (NOR), Bellingham 45+2' (ENG). As of 06:14 Beijing (49').
+  // LIVE (EXTRA TIME): Regular time ended 1-1 (Schjelderup 36' NOR, Bellingham 45+2' ENG; Kane goal ruled offside). Now in extra time as of ~07:10 Beijing Jul 12 (kicked off 05:00 Beijing). Confirmed by FIFA / Hindustan Times / QQ / Dongqiudi / Leisu / Hupu. Nano prediction feed's 1-2 ET score is unconfirmed — not recorded.
   m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "live", 1, 1),
   // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08)
   m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "upcoming"),
