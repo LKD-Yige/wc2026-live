@@ -291,7 +291,8 @@ export const knockoutMatches: Match[] = [
   // Spain advances to semi-finals, will play France (QF1 winner)
   m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "finished", 2, 1),
   // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04)
-  m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "upcoming"),
+  // LIVE: first half, 0-0 (kickoff 17:00 ET / 05:00 Beijing Jul 12) as of 05:18 Beijing
+  m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "live", 0, 0),
   // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08)
   m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "upcoming"),
   // Semi-finals - July 14-15, 2026
