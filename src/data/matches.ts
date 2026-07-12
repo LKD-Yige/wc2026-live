@@ -296,10 +296,12 @@ export const knockoutMatches: Match[] = [
   // England advances to semi-finals, will play winner of QF4 (Argentina vs Switzerland).
   // Confirmed by QQ / Sina / 163 (Jul 12, Beijing).
   m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "finished", 1, 2),
-  // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08) - LIVE (second half)
-  // Argentina 1-1 Switzerland: Mac Allister header 10' (assist Messi, his 10th WC assist); Ndoye 67' equalizer (assist R. Rodriguez).
-  // Embolo sent off (second yellow) - Switzerland down to 10 men. Confirmed LIVE 1-1 by OneFootball / FotMob / QQ-Hupu / VnExpress / zhibo8 / livescoresx (~70', Jul 12 Beijing).
-  m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "live", 1, 1),
+  // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08) - LIVE (EXTRA TIME)
+  // 90' ended 1-1: Mac Allister header 10' (assist Messi, his 10th WC assist); Ndoye 67' equalizer.
+  // Embolo sent off (second yellow, "diving") at 71'/72' - Switzerland down to 10 men.
+  // EXTRA TIME: Julian Alvarez scored at 112' to put Argentina 2-1 ahead. Second half of ET ongoing (~112', Jul 12 Beijing).
+  // Confirmed 2-1 in extra time by VnExpress live blog / ratopati.com / Weibo (112' Alvarez) / data feed.
+  m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "live", 2, 1),
   // Semi-finals - July 14-15, 2026
   ko("sf-01", "2026-07-14", "16:00", "Semi-finals", 5),
   ko("sf-02", "2026-07-15", "16:00", "Semi-finals", 6),
