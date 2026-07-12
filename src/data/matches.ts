@@ -290,9 +290,12 @@ export const knockoutMatches: Match[] = [
   // Spain won 2-1: Fabian Ruiz 30', Merino 88' (winner); De Ketelaere 41' for Belgium
   // Spain advances to semi-finals, will play France (QF1 winner)
   m("qf-02", "2026-07-10", "15:00", "Quarter-finals", undefined, "ESP", "BEL", "Inglewood", "SoFi Stadium", "finished", 2, 1),
-  // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04)
-  // LIVE (EXTRA TIME): Regular time ended 1-1 (Schjelderup 36' NOR, Bellingham 45+2' ENG; Kane goal ruled offside). Now in extra time as of ~07:10 Beijing Jul 12 (kicked off 05:00 Beijing). Confirmed by FIFA / Hindustan Times / QQ / Dongqiudi / Leisu / Hupu. Nano prediction feed's 1-2 ET score is unconfirmed — not recorded.
-  m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "live", 1, 1),
+  // QF3: Norway vs England - July 11 (winners of r16-03 and r16-04) - FINISHED (after extra time)
+  // Regular time ended 1-1 (Schjelderup 36' NOR, Bellingham 45+2' ENG; Kane goal ruled offside).
+  // Extra time winner: Bellingham 93' (ENG). Final: Norway 1-2 England. No penalties.
+  // England advances to semi-finals, will play winner of QF4 (Argentina vs Switzerland).
+  // Confirmed by QQ / Sina / 163 (Jul 12, Beijing).
+  m("qf-03", "2026-07-11", "17:00", "Quarter-finals", undefined, "NOR", "ENG", "Miami", "Hard Rock Stadium", "finished", 1, 2),
   // QF4: Argentina vs Switzerland - July 11 (winners of r16-07 and r16-08)
   m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "upcoming"),
   // Semi-finals - July 14-15, 2026
