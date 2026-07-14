@@ -304,9 +304,10 @@ export const knockoutMatches: Match[] = [
   // Confirmed FINAL 3-1 by CCTV/央视新闻 (Toutiao), 腾讯新闻, 新黄河, 球迷屋 (Jul 12 Beijing).
   m("qf-04", "2026-07-11", "21:00", "Quarter-finals", undefined, "ARG", "SUI", "Kansas City", "Arrowhead Stadium", "finished", 3, 1),
   // Semi-finals - July 14-15, 2026
-  // SF1: France vs Spain - July 15 (03:00 BJ / 19:00 UTC Jul 14, Dallas) - LIVE
-  // Spain lead 1-0 at half-time: Oyarzabal penalty (1H); Saliba forced off injured. France pushing for equaliser.
-  m("sf-01", "2026-07-14", "16:00", "Semi-finals", undefined, "FRA", "ESP", "Dallas", "AT&T Stadium", "live", 0, 1),
+  // SF1: France vs Spain - July 15 (03:00 BJ / 19:00 UTC Jul 14, Dallas) - FINAL
+  // Spain won 2-0: Oyarzabal penalty (22', after Digne fouled Yamal); Porro (58', assist Olmo). Yamal 61' ruled offside. Saliba off injured (1H).
+  // Spain advance to the Final (vs winner of SF2 England-Argentina). France eliminated. Confirmed by Sina/QQ/163/Dongqiudi/oddscalendar (FT 90+7').
+  m("sf-01", "2026-07-14", "16:00", "Semi-finals", undefined, "FRA", "ESP", "Dallas", "AT&T Stadium", "finished", 0, 2),
   ko("sf-02", "2026-07-15", "16:00", "Semi-finals", 6),
   // Third Place - July 18, 2026
   ko("tp-01", "2026-07-18", "16:00", "Third Place", 7),
