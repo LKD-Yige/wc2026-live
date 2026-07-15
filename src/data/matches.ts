@@ -308,7 +308,11 @@ export const knockoutMatches: Match[] = [
   // Spain won 2-0: Oyarzabal penalty (22', after Digne fouled Yamal); Porro (58', assist Olmo). Yamal 61' ruled offside. Saliba off injured (1H).
   // Spain advance to the Final (vs winner of SF2 England-Argentina). France eliminated. Confirmed by Sina/QQ/163/Dongqiudi/oddscalendar (FT 90+7').
   m("sf-01", "2026-07-14", "16:00", "Semi-finals", undefined, "FRA", "ESP", "Dallas", "AT&T Stadium", "finished", 0, 2),
-  ko("sf-02", "2026-07-15", "16:00", "Semi-finals", 6),
+  // SF2: England vs Argentina - July 15 (19:00 UTC / 03:00 BJ Jul 16, Atlanta) - FINAL
+  // Argentina won 2-1: Gordon 55' (ENG, assist Rogers); Enzo Fernández 86' (ARG, assist Messi); Lautaro Martínez 90+2' (ARG, assist Messi)
+  // Argentina advance to the Final (vs Spain, Jul 19/20). England to Third Place (vs France, Jul 18).
+  // Confirmed by 网易/163, 直播吧, 央视新闻 (FT 90+5').
+  m("sf-02", "2026-07-15", "16:00", "Semi-finals", undefined, "ENG", "ARG", "Atlanta", "Mercedes-Benz Stadium", "finished", 1, 2),
   // Third Place - July 18, 2026
   ko("tp-01", "2026-07-18", "16:00", "Third Place", 7),
   // Final - July 19, 2026
